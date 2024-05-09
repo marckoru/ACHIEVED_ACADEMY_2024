@@ -406,6 +406,21 @@
           id="75264b07-6cc7-4772-bf6f-39cabb937220" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="44e4c6fb-10cf-48fc-abca-7f22ccfdb935" name="Root System Function">
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="05eeb1b3-7b79-428c-8c66-0b8fc9417e86" name="Life Support Power Supply">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="2206edfa-3851-4af5-a1ae-70a8ce75363c" involved="#344c31c2-6879-44aa-aca8-3b09ca1b1a6a"
+                source="#2f2286ba-4cad-4651-af95-68797d747964" target="#f0649a88-e626-458f-b4da-f2c578e6924f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="f0649a88-e626-458f-b4da-f2c578e6924f" involved="#b15687e9-c9b5-4c5a-87c6-d1ffac846b0c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="2f2286ba-4cad-4651-af95-68797d747964" involved="#feab291f-e4a3-40d2-83ab-132932209ec7"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="b021623f-f170-4dfa-b367-9536f3025800" involved="#a5fe5193-5d46-4f4c-a44f-86bd3bb626b5"
+                source="#2fc1de8b-17a4-4af4-90af-e2f8d55b6584" target="#f0649a88-e626-458f-b4da-f2c578e6924f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="2fc1de8b-17a4-4af4-90af-e2f8d55b6584" involved="#a3035807-ff06-4cde-bbdd-8c3d5ecbb83a"/>
+          </ownedFunctionalChains>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="b15687e9-c9b5-4c5a-87c6-d1ffac846b0c" name="Provide Life Support Conditions">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
@@ -616,7 +631,7 @@
               id="39bdef86-77ed-47b3-941f-04e3db1cd690" name="maneuver" target="#a23b9a44-1b8c-4df2-b685-e4dedac125bf"
               source="#7d44bc26-2089-4395-b2c3-1190f9fa6c28"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="ec51159c-0ca7-4898-b6f8-750b75e498ff" name="Science" target="#afc93a35-9331-49cb-82f2-f0d9645a1d6c"
+              id="ec51159c-0ca7-4898-b6f8-750b75e498ff" name="Science Samples" target="#afc93a35-9331-49cb-82f2-f0d9645a1d6c"
               source="#0d308766-c97f-41cd-90c0-aafd1f4dce81"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="504f6070-9afb-47d5-8886-a1e58d110ad8" name="Request new data/orders"
@@ -654,6 +669,8 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="adc62338-4cc8-4d59-938b-943dedabf327" name="Power Supply">
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="ca5551e3-3b4f-41d4-931e-f909450526d8" involved="#05eeb1b3-7b79-428c-8c66-0b8fc9417e86"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="e1d7282b-4a23-41a1-8228-a1a43db16352" involved="#133e6944-5e53-4352-8e1a-eee79877ce6a"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
@@ -834,6 +851,9 @@
             name="Launcher" abstractType="#cb785e07-eb41-4dba-bd9f-1f2fdf556301"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="116a4c75-5ceb-48bc-afbc-60356803a3b4"
             name="Astronauts" abstractType="#3b9ee459-9000-43d5-9260-72cb3dd27b09"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+            id="1673f2ab-efe5-4930-8243-587a0a84998e" name="Sample Container" source="#097c7796-6b54-40ef-a12f-bbd2f05e6d30"
+            target="#4b58d32a-2b76-4c71-9ac9-cdef17f5f2cb" kind="FLOW"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="133e6944-5e53-4352-8e1a-eee79877ce6a" name="Habitat">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -856,6 +876,13 @@
             <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                 id="97c1589b-a608-4054-9195-f5c0d6181d51" name="Default Region"/>
           </ownedStateMachines>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+              id="4b58d32a-2b76-4c71-9ac9-cdef17f5f2cb" name="CP 1" orientation="IN"
+              kind="FLOW">
+            <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                id="bb0eba73-5237-4028-8a84-73b28d9b4e30" targetElement="#afc93a35-9331-49cb-82f2-f0d9645a1d6c"
+                sourceElement="#4b58d32a-2b76-4c71-9ac9-cdef17f5f2cb"/>
+          </ownedFeatures>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="1e542954-5797-41cd-b687-eab4243b239c" name="Habitat" actor="true">
@@ -914,6 +941,13 @@
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="7a7a5c53-9360-48d0-887c-588c5c66fa92" targetElement="#6e93250b-f767-4aa1-af8f-cc003fec640c"
               sourceElement="#3b9ee459-9000-43d5-9260-72cb3dd27b09"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+              id="097c7796-6b54-40ef-a12f-bbd2f05e6d30" name="CP 1" orientation="OUT"
+              kind="FLOW">
+            <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                id="fc313459-a460-4ab1-ac10-566472247b09" targetElement="#0d308766-c97f-41cd-90c0-aafd1f4dce81"
+                sourceElement="#097c7796-6b54-40ef-a12f-bbd2f05e6d30"/>
+          </ownedFeatures>
         </ownedSystemComponents>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="fcc68902-d865-4561-b7e6-ce74f12dfb58"
