@@ -2444,7 +2444,7 @@
                 sourceElement="#f9ee3932-bc1f-44e3-bbe3-aed7290ab5c5"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="a13d0c78-f496-4f99-b0f0-2513299720d1" name="Able to Descend and Land on Lunar Surface Intact">
+              id="a13d0c78-f496-4f99-b0f0-2513299720d1" name="Descend and Land on Lunar Surface Intact">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="6585e636-f3e3-48a8-af19-b9ac9b75ba2e" name="inLanding"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -3540,7 +3540,7 @@
               id="ac24c57d-1cdb-4818-ad90-80cc174172a3" name="Communication with Lunar Base"
               target="#4a9457b2-9110-4d34-a97f-f9ec28332d5a" source="#aa52a667-071e-4542-8572-daff31c0638d"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="1d5c4334-58c9-47ae-8a3c-2b21e48f7ee3" name="Solar Panel Deployment"
+              id="1d5c4334-58c9-47ae-8a3c-2b21e48f7ee3" name="Solar Panel Deployment Finished Confirmation"
               target="#82802b9d-db70-46b3-8c39-e86cd9ed1e29" source="#37b6952b-e7ba-48a8-900c-efaccc5b4d71">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="a919991a-9a65-454a-9940-8512fd266dd2" targetElement="#f68c721f-d2e1-4204-a681-f2e72a4124b8"
@@ -4603,6 +4603,9 @@
             name="Nuclear Source" abstractType="#51ebf888-a0d9-4288-8c8a-6a2f656b630b"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="31424226-80ae-4526-8029-d17d4836a803"
             name="Resupply Mission Launch Vehicle" abstractType="#8f61d538-20c4-42b8-a372-5735dc3197c1"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+            id="1008fec3-8989-4b81-9e35-7db19eca0721" name="Data Link" source="#6e9d04ab-521b-4daa-87d2-12170d49419c"
+            target="#ff56f2fe-e5a5-4bb0-ae8c-94c244dc2acc" kind="FLOW"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="94a8a314-75fd-40ae-91e0-87b1bf0e690b" name="Lunar Habitat Module">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -4723,6 +4726,13 @@
               sourceElement="#b3568c94-f070-4d41-a09b-df71ecb4b1d8"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="50dcb833-3706-4398-8deb-493bab1e9bb6"
               name="Launch Vehicle" abstractType="#d268e139-2f4e-4187-a066-9593ce0b43ba"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+              id="6e9d04ab-521b-4daa-87d2-12170d49419c" name="CP 2" orientation="OUT"
+              kind="FLOW">
+            <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                id="ebeda493-3321-46d9-813e-efdd4f7dec0f" targetElement="#37b6952b-e7ba-48a8-900c-efaccc5b4d71"
+                sourceElement="#6e9d04ab-521b-4daa-87d2-12170d49419c"/>
+          </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="0f32271e-d786-4262-8773-b4a9f7f26ff2" targetElement="#70a7911a-f4fb-4459-817c-0f0da67acc4d"
               sourceElement="#b3568c94-f070-4d41-a09b-df71ecb4b1d8"/>
@@ -4762,6 +4772,13 @@
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="694a6736-b173-438b-b88b-00cb0e2e804d" targetElement="#03318f67-1dfd-4df6-89a3-9971e9629251"
               sourceElement="#5a9dd4b5-cbfb-49f5-97cc-696febe40078"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+              id="ff56f2fe-e5a5-4bb0-ae8c-94c244dc2acc" name="CP 1" orientation="IN"
+              kind="FLOW">
+            <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                id="0284739c-2659-4fe2-ace8-6b9432ed6f48" targetElement="#82802b9d-db70-46b3-8c39-e86cd9ed1e29"
+                sourceElement="#ff56f2fe-e5a5-4bb0-ae8c-94c244dc2acc"/>
+          </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="180ee860-5575-44c9-93d2-0620274db8ae" targetElement="#92721a85-eacb-4534-9480-abe4faabb77c"
               sourceElement="#5a9dd4b5-cbfb-49f5-97cc-696febe40078"/>

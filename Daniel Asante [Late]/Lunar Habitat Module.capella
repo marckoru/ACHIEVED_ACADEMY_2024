@@ -1235,6 +1235,9 @@
             name="Lunar Module servers" abstractType="#a950df20-332f-4912-ac66-66644cd5a1ac"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="eac2995b-6d7a-4ca0-a5c2-96c5e69ba299"
             name="Habitat space" abstractType="#642e342d-a7a7-4853-91dc-478fc7c06c2e"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+            id="f40eec55-5622-417f-9ffe-6096e6db05a3" name="Data Link" source="#dcc560b8-e6c2-48ab-ac17-a252e20e89d7"
+            target="#90ea684d-916a-4ac4-9438-c9d11c38270a" kind="FLOW"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="a950df20-332f-4912-ac66-66644cd5a1ac" name="Lunar Module servers">
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4c1011b7-ae7d-472e-93b1-b8965c5076eb"
@@ -1293,6 +1296,13 @@
               <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                   id="bf1b1207-a9a4-46ec-8be9-6941619b216b" targetElement="#ba394dc4-7a35-48bc-9167-4ec1c532191b"
                   sourceElement="#64c4b9ca-8c5c-48e5-9289-6f7bd62fc443"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="90ea684d-916a-4ac4-9438-c9d11c38270a" name="CP 1" orientation="OUT"
+                  kind="FLOW">
+                <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                    id="01b68139-2dca-4ba0-8327-1dc022db461c" targetElement="#442630c2-f5e4-4c18-b243-6543cb672c7d"
+                    sourceElement="#90ea684d-916a-4ac4-9438-c9d11c38270a"/>
+              </ownedFeatures>
             </ownedLogicalComponents>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
@@ -1315,6 +1325,13 @@
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="23506303-2ca8-4072-aa67-f4b5eaaa2928" targetElement="#9d1732b6-8dd6-42e2-bba0-b76eae4c30dc"
                 sourceElement="#34761cfd-41f3-41f5-9742-d69ae7d10f47"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="dcc560b8-e6c2-48ab-ac17-a252e20e89d7" name="CP 1" orientation="IN"
+                kind="FLOW">
+              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                  id="56e5e938-b018-4ec7-86dd-0167f38f1c8e" targetElement="#b106c78e-77db-4b6f-bc1d-3f58380c8646"
+                  sourceElement="#dcc560b8-e6c2-48ab-ac17-a252e20e89d7"/>
+            </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="af181b4f-7fd1-4244-888d-e3f52989ed2f" name="Survival mode">
