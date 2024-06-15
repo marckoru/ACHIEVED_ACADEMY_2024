@@ -264,7 +264,7 @@
                 id="74124f10-faff-4627-9911-9242b18cb7cd" name="Ground Operator (Agency)"
                 representedInstance="#8ea57ca6-7486-4925-81a7-d1ab88cc1d95"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="077db00c-a28b-4ddb-a95e-c0cb2fca7f87" name="Astronaut" representedInstance="#4eaafdee-7a58-42ef-a606-3475f8f8d5cb"/>
+                id="077db00c-a28b-4ddb-a95e-c0cb2fca7f87" name="Commander" representedInstance="#4eaafdee-7a58-42ef-a606-3475f8f8d5cb"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
                 id="4fea7c99-c400-403a-aa29-54471ae41dde" name="Relaying Latest Information Regarding the Mission"
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#561d133c-6502-43dc-8bd0-005ad1e71bb9"
@@ -348,7 +348,7 @@
                 id="22e17634-2f4a-4923-8f18-e3e6af518ceb" name="Ground Operator (Agency)"
                 representedInstance="#8ea57ca6-7486-4925-81a7-d1ab88cc1d95"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="9619f531-c46f-4446-91c1-16a96b843ada" name="Astronaut" representedInstance="#4eaafdee-7a58-42ef-a606-3475f8f8d5cb"/>
+                id="9619f531-c46f-4446-91c1-16a96b843ada" name="Commander" representedInstance="#4eaafdee-7a58-42ef-a606-3475f8f8d5cb"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="a7d7287f-598d-4fab-bf02-c9bc2f86dbe4" name="Research" representedInstance="#3dba42de-4d79-447a-8710-b62a4d4d68ad"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
@@ -727,7 +727,7 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a70555a9-76e2-449c-8608-3ce82a6981f1"
               name="Ground Crew" abstractType="#c446bf80-ba84-42c9-a427-486038ba8d93"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b8d9394b-6556-40d0-935a-faed28058c60"
-              name="Space Crew" abstractType="#ad4f35e4-67b3-4d2d-b37f-d310c912d3ff"/>
+              name="Mission Crew" abstractType="#ad4f35e4-67b3-4d2d-b37f-d310c912d3ff"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c446bf80-ba84-42c9-a427-486038ba8d93"
               name="Ground Crew">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8ea57ca6-7486-4925-81a7-d1ab88cc1d95"
@@ -757,11 +757,13 @@
             </ownedEntities>
           </ownedEntities>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ad4f35e4-67b3-4d2d-b37f-d310c912d3ff"
-              name="Space Crew">
+              name="Mission Crew">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4eaafdee-7a58-42ef-a606-3475f8f8d5cb"
-                name="Astronaut" abstractType="#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
+                name="Commander" abstractType="#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7f070fa2-e83f-486e-bbf0-29d69e7b4354"
+                name="Payload Engineer" abstractType="#4e74211f-8d4a-4f2d-b164-1fe9a4603121"/>
             <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="27d5c6fa-73b4-4ebb-a924-86e769e81856"
-                name="Astronaut" actor="true" human="true">
+                name="Commander" actor="true" human="true">
               <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                   id="65caeac7-9f45-461e-9aa4-6207c00ad76e" targetElement="#b41cd091-04aa-49e7-9614-e7964d37b172"
                   sourceElement="#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
@@ -784,6 +786,8 @@
                   id="67828f5b-94a5-4ea8-a78b-957f88bd8c41" targetElement="#31280339-b91d-47bd-9855-dbe9a60ee179"
                   sourceElement="#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
             </ownedEntities>
+            <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="4e74211f-8d4a-4f2d-b164-1fe9a4603121"
+                name="Payload Engineer" actor="true" human="true"/>
           </ownedEntities>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="d62613ef-f2ba-47ec-ba2f-d34d7713099c"

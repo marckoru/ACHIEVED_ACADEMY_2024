@@ -27,7 +27,7 @@
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg" href="Test.capella#d67227c4-ef02-4e4a-81b8-ce8c750caa0f"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MzIBoP_bEe6m6_P34_uPNg" name="[SAB] Architecture View of Research Scenario" repPath="#_MzFlYP_bEe6m6_P34_uPNg" changeId="1713730991286">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MzIBoP_bEe6m6_P34_uPNg" name="[SAB] Architecture View of Research Scenario" repPath="#_MzFlYP_bEe6m6_P34_uPNg" changeId="1715949131661">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Test.capella#9d7e5ff7-4f7b-4abe-ae0b-982e9b654c9f"/>
       </ownedRepresentationDescriptors>
@@ -88,11 +88,11 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_q75hYPfrEe67857dloL-ew">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_M1O94PftEe67857dloL-ew" name="[OEBD] Operational Entities" repPath="#_M1A7cPftEe67857dloL-ew" changeId="1713464602755">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_M1O94PftEe67857dloL-ew" name="[OEBD] Operational Entities" repPath="#_M1A7cPftEe67857dloL-ew" changeId="1715948427439">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Test.capella#dd4a9460-42cc-498f-98d1-1ac01649e11e"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_U5laIP1kEe646IGgyceRnA" name="[OCB] Operational Capabilities" repPath="#_U5kMAP1kEe646IGgyceRnA" changeId="1713468475387">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_U5laIP1kEe646IGgyceRnA" name="[OCB] Operational Capabilities" repPath="#_U5kMAP1kEe646IGgyceRnA" changeId="1715948415933">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Test.capella#d4bf1060-e5a2-4d4f-8250-0dd89aa06726"/>
       </ownedRepresentationDescriptors>
@@ -104,7 +104,7 @@
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Interaction%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Test.capella#e19ac8b5-5a03-411e-9655-58373d3b5a2d"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_0TPLUP1pEe6hNZ064So49w" name="[OAB] Operational Entities" repPath="#_0TOkQP1pEe6hNZ064So49w" changeId="1713619984660">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_0TPLUP1pEe6hNZ064So49w" name="[OAB] Operational Entities" repPath="#_0TOkQP1pEe6hNZ064So49w" changeId="1715948543628">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Test.capella#dd4a9460-42cc-498f-98d1-1ac01649e11e"/>
       </ownedRepresentationDescriptors>
@@ -166,7 +166,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iisesv1lEe646IGgyceRnA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_iinmMf1lEe646IGgyceRnA" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iinmMv1lEe646IGgyceRnA" x="660" y="362" width="70" height="61"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iinmMv1lEe646IGgyceRnA" x="591" y="350" width="70" height="61"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_jBCyIP1mEe6hNZ064So49w" type="2001" element="_jA3L9v1mEe6hNZ064So49w">
           <children xmi:type="notation:Node" xmi:id="_jBDZMP1mEe6hNZ064So49w" type="5002">
@@ -222,6 +222,17 @@
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_P8ARwf2kEe65Nqg_sBWBDg" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P8ARwv2kEe65Nqg_sBWBDg" x="100" y="40" width="351" height="101"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ufC8EBRHEe-mnuG5MiuBVA" type="2001" element="_ud-lEBRHEe-mnuG5MiuBVA">
+          <children xmi:type="notation:Node" xmi:id="_ufMGABRHEe-mnuG5MiuBVA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ufMGARRHEe-mnuG5MiuBVA" x="-15" y="62"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ufvfoBRHEe-mnuG5MiuBVA" type="3005" element="_ueAaQBRHEe-mnuG5MiuBVA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ufvfoRRHEe-mnuG5MiuBVA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufvfohRHEe-mnuG5MiuBVA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ufC8ERRHEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufC8EhRHEe-mnuG5MiuBVA" x="750" y="350" width="70" height="61"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_M1if4vftEe67857dloL-ew"/>
         <edges xmi:type="notation:Edge" xmi:id="_aWn1IP1lEe646IGgyceRnA" type="4001" element="_aWl_9P1lEe646IGgyceRnA" source="_Rvcj8P1lEe646IGgyceRnA" target="_XW57sP1lEe646IGgyceRnA">
@@ -290,17 +301,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_yHMvwP2kEe65Nqg_sBWBDg" type="4001" element="_yHLhwv2kEe65Nqg_sBWBDg" source="_iinmMP1lEe646IGgyceRnA" target="_O3Oq0PftEe67857dloL-ew">
           <children xmi:type="notation:Node" xmi:id="_yHNW0P2kEe65Nqg_sBWBDg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yHNW0f2kEe65Nqg_sBWBDg" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yHNW0f2kEe65Nqg_sBWBDg" x="-31" y="19"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_yHNW0v2kEe65Nqg_sBWBDg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yHNW0_2kEe65Nqg_sBWBDg" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yHNW0_2kEe65Nqg_sBWBDg" x="-20" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_yHNW1P2kEe65Nqg_sBWBDg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yHNW1f2kEe65Nqg_sBWBDg" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yHNW1f2kEe65Nqg_sBWBDg" x="15" y="-4"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_yHMvwf2kEe65Nqg_sBWBDg" routing="Tree" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_yHMvwv2kEe65Nqg_sBWBDg" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yHMvw_2kEe65Nqg_sBWBDg" points="[0, 0, 0, 72]$[0, -72, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yHMvw_2kEe65Nqg_sBWBDg" points="[0, 3, -74, 98]$[0, -44, -74, 51]$[74, -44, 0, 51]$[74, -60, 0, 35]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yHNW1v2kEe65Nqg_sBWBDg" id="(0.5714285714285714,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yHNW1_2kEe65Nqg_sBWBDg" id="(0.5,0.5)"/>
         </edges>
@@ -336,6 +347,22 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yt-b6v2kEe65Nqg_sBWBDg" id="(0.0,0.7868852459016393)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yt-b6_2kEe65Nqg_sBWBDg" id="(0.5,0.5)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_vEB4cBRHEe-mnuG5MiuBVA" type="4001" element="_vDwLoBRHEe-mnuG5MiuBVA" source="_ufC8EBRHEe-mnuG5MiuBVA" target="_O3Oq0PftEe67857dloL-ew">
+          <children xmi:type="notation:Node" xmi:id="_vEDGkBRHEe-mnuG5MiuBVA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEDGkRRHEe-mnuG5MiuBVA" x="-11" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEEUsBRHEe-mnuG5MiuBVA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEEUsRRHEe-mnuG5MiuBVA" x="-18" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEEUshRHEe-mnuG5MiuBVA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEEUsxRHEe-mnuG5MiuBVA" x="-3" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vEB4cRRHEe-mnuG5MiuBVA" routing="Tree" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vEB4chRHEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vEB4cxRHEe-mnuG5MiuBVA" points="[0, 3, 85, 98]$[0, -44, 85, 51]$[-85, -44, 0, 51]$[-85, -60, 0, 35]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vEGJ4BRHEe-mnuG5MiuBVA" id="(0.5714285714285714,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vEGJ4RRHEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_M15sQPftEe67857dloL-ew" source="DANNOTATION_CUSTOMIZATION_KEY">
@@ -363,7 +390,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@nodeMappings[name='OEB_OperationalEntities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_O27v4PftEe67857dloL-ew" name="Space Crew" outgoingEdges="_Oq5mMP1rEe6hNZ064So49w" incomingEdges="_yHLhwv2kEe65Nqg_sBWBDg" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_O27v4PftEe67857dloL-ew" name="Mission Crew" outgoingEdges="_Oq5mMP1rEe6hNZ064So49w" incomingEdges="_yHLhwv2kEe65Nqg_sBWBDg _vDwLoBRHEe-mnuG5MiuBVA" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#ad4f35e4-67b3-4d2d-b37f-d310c912d3ff"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#ad4f35e4-67b3-4d2d-b37f-d310c912d3ff"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -396,13 +423,24 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@nodeMappings[name='OEB_OperationalEntities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_iiituv1lEe646IGgyceRnA" name="Astronaut" outgoingEdges="_yHLhwv2kEe65Nqg_sBWBDg" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_iiituv1lEe646IGgyceRnA" name="Commander" outgoingEdges="_yHLhwv2kEe65Nqg_sBWBDg" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_iiitu_1lEe646IGgyceRnA" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/Actor.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@nodeMappings[name='OEB_OperationalEntities']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@nodeMappings[name='OEB_OperationalEntities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ud-lEBRHEe-mnuG5MiuBVA" name="Payload Engineer" outgoingEdges="_vDwLoBRHEe-mnuG5MiuBVA" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#4e74211f-8d4a-4f2d-b164-1fe9a4603121"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#4e74211f-8d4a-4f2d-b164-1fe9a4603121"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ueAaQBRHEe-mnuG5MiuBVA" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/Actor.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@nodeMappings[name='OEB_OperationalEntities']/@conditionnalStyles.0/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@nodeMappings[name='OEB_OperationalEntities']"/>
@@ -500,6 +538,15 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_yt9Nyf2kEe65Nqg_sBWBDg" foldingStyle="TARGET" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@edgeMappings[name='containedIn%20Mapping']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_yt9Nyv2kEe65Nqg_sBWBDg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@edgeMappings[name='containedIn%20Mapping']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vDwLoBRHEe-mnuG5MiuBVA" sourceNode="_ud-lEBRHEe-mnuG5MiuBVA" targetNode="_O27v4PftEe67857dloL-ew">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#4e74211f-8d4a-4f2d-b164-1fe9a4603121"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Test.capella#7f070fa2-e83f-486e-bbf0-29d69e7b4354"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vDyA0BRHEe-mnuG5MiuBVA" foldingStyle="TARGET" routingStyle="tree">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@edgeMappings[name='containedIn%20Mapping']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vDyA0RRHEe-mnuG5MiuBVA"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']/@defaultLayer/@edgeMappings[name='containedIn%20Mapping']"/>
     </ownedDiagramElements>
@@ -1171,7 +1218,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_EntityOperationalCapabilityInvolvement']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_iidOIP1lEe646IGgyceRnA" name="Astronaut" incomingEdges="_arU9AP1pEe6hNZ064So49w _coLrQP1pEe6hNZ064So49w _dkydfv1pEe6hNZ064So49w _eHL_9P1pEe6hNZ064So49w _wZgrZP1qEe6hNZ064So49w _w0pvSP1qEe6hNZ064So49w">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_iidOIP1lEe646IGgyceRnA" name="Commander" incomingEdges="_arU9AP1pEe6hNZ064So49w _coLrQP1pEe6hNZ064So49w _dkydfv1pEe6hNZ064So49w _eHL_9P1pEe6hNZ064So49w _wZgrZP1qEe6hNZ064So49w _w0pvSP1qEe6hNZ064So49w">
       <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -3451,7 +3498,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_lIYI6v2kEe65Nqg_sBWBDg" name="Space Crew">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_lIYI6v2kEe65Nqg_sBWBDg" name="Mission Crew">
         <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#ad4f35e4-67b3-4d2d-b37f-d310c912d3ff"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#ad4f35e4-67b3-4d2d-b37f-d310c912d3ff"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -3461,7 +3508,7 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
-        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_4A0Ogf2kEe65Nqg_sBWBDg" name="Astronaut">
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_4A0Ogf2kEe65Nqg_sBWBDg" name="Commander">
           <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Test.capella#27d5c6fa-73b4-4ebb-a924-86e769e81856"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -8092,6 +8139,17 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_-p-qwf_cEe6m6_P34_uPNg" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-p-qwv_cEe6m6_P34_uPNg" x="750" y="50" width="343" height="1193"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_fAn0UBRJEe-mnuG5MiuBVA" type="2001" element="_e_FjQBRJEe-mnuG5MiuBVA">
+          <children xmi:type="notation:Node" xmi:id="_fApCcBRJEe-mnuG5MiuBVA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_fApCcRRJEe-mnuG5MiuBVA" x="21" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fAresBRJEe-mnuG5MiuBVA" type="3003" element="_e_H_gBRJEe-mnuG5MiuBVA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fAresRRJEe-mnuG5MiuBVA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAreshRJEe-mnuG5MiuBVA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_fAn0URRJEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAn0UhRJEe-mnuG5MiuBVA" x="1500" y="350" width="20" height="20"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_MzP9cv_bEe6m6_P34_uPNg"/>
         <edges xmi:type="notation:Edge" xmi:id="_JbUtc__dEe6m6_P34_uPNg" type="4001" element="_JafnAv_dEe6m6_P34_uPNg" source="_Ja8S8P_dEe6m6_P34_uPNg" target="_JbE12f_dEe6m6_P34_uPNg">
           <children xmi:type="notation:Node" xmi:id="_JbUtd__dEe6m6_P34_uPNg" type="6001">
@@ -8269,6 +8327,134 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_l3-PSgAUEe-5GdGgHFzWWw" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_l3-PSwAUEe-5GdGgHFzWWw" id="(0.5,0.5)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fAuiABRJEe-mnuG5MiuBVA" type="4001" element="_e_1xMBRJEe-mnuG5MiuBVA" source="_iQPjIP_eEe6m6_P34_uPNg" target="_njTYMP_eEe6m6_P34_uPNg">
+          <children xmi:type="notation:Node" xmi:id="_fAvJEBRJEe-mnuG5MiuBVA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAvJERRJEe-mnuG5MiuBVA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fAvwIBRJEe-mnuG5MiuBVA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAvwIRRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fAvwIhRJEe-mnuG5MiuBVA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAvwIxRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fAuiARRJEe-mnuG5MiuBVA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fAuiAhRJEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fAuiAxRJEe-mnuG5MiuBVA" points="[-5, 0, 198, -32]$[-198, 31, 5, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fAyMYBRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fAyMYRRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fAyzcBRJEe-mnuG5MiuBVA" type="4001" element="_e_4NcBRJEe-mnuG5MiuBVA" source="_LpZHj__dEe6m6_P34_uPNg" target="_GVnj8__hEe6m6_P34_uPNg">
+          <children xmi:type="notation:Node" xmi:id="_fAyzdBRJEe-mnuG5MiuBVA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAyzdRRJEe-mnuG5MiuBVA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fAzagBRJEe-mnuG5MiuBVA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAzagRRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fAzaghRJEe-mnuG5MiuBVA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAzagxRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fAyzcRRJEe-mnuG5MiuBVA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fAyzchRJEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fAyzcxRJEe-mnuG5MiuBVA" points="[-5, 0, 230, -10]$[-230, 9, 5, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA0BkBRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA0BkRRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fA0BkhRJEe-mnuG5MiuBVA" type="4001" element="_e_6psBRJEe-mnuG5MiuBVA" source="_KgdJif_dEe6m6_P34_uPNg" target="_Kgha8P_dEe6m6_P34_uPNg">
+          <children xmi:type="notation:Node" xmi:id="_fA1PsBRJEe-mnuG5MiuBVA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA1PsRRJEe-mnuG5MiuBVA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA1PshRJEe-mnuG5MiuBVA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA1PsxRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA12wBRJEe-mnuG5MiuBVA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA12wRRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fA0BkxRJEe-mnuG5MiuBVA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fA0BlBRJEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fA0BlRRJEe-mnuG5MiuBVA" points="[5, 0, -230, -20]$[230, 19, -5, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA3r8BRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA3r8RRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fA3r8hRJEe-mnuG5MiuBVA" type="4001" element="_e_7QwBRJEe-mnuG5MiuBVA" source="_JbE12f_dEe6m6_P34_uPNg" target="_JbKVYP_dEe6m6_P34_uPNg">
+          <children xmi:type="notation:Node" xmi:id="_fA4TABRJEe-mnuG5MiuBVA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA4TARRJEe-mnuG5MiuBVA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA4TAhRJEe-mnuG5MiuBVA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA4TAxRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA46EBRJEe-mnuG5MiuBVA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA46ERRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fA3r8xRJEe-mnuG5MiuBVA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fA3r9BRJEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fA3r9RRJEe-mnuG5MiuBVA" points="[-5, 2, 75, -42]$[-75, 41, 5, -3]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA6IMBRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA6IMRRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fA6vQBRJEe-mnuG5MiuBVA" type="4001" element="_e_9F8BRJEe-mnuG5MiuBVA" source="_nINiM__fEe6m6_P34_uPNg" target="_Ja8S8P_dEe6m6_P34_uPNg">
+          <children xmi:type="notation:Node" xmi:id="_fA7WUBRJEe-mnuG5MiuBVA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA7WURRJEe-mnuG5MiuBVA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA7WUhRJEe-mnuG5MiuBVA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA7WUxRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA7WVBRJEe-mnuG5MiuBVA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA7WVRRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fA6vQRRJEe-mnuG5MiuBVA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fA6vQhRJEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fA6vQxRJEe-mnuG5MiuBVA" points="[5, 1, -87, -31]$[87, 30, -5, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA79YBRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA79YRRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fA79YhRJEe-mnuG5MiuBVA" type="4001" element="_e_-UEBRJEe-mnuG5MiuBVA" source="_LpNhUP_dEe6m6_P34_uPNg" target="_LpTn8P_dEe6m6_P34_uPNg">
+          <children xmi:type="notation:Node" xmi:id="_fA9LgBRJEe-mnuG5MiuBVA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA9LgRRJEe-mnuG5MiuBVA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA9LghRJEe-mnuG5MiuBVA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA9LgxRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA9LhBRJEe-mnuG5MiuBVA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA9LhRRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fA79YxRJEe-mnuG5MiuBVA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fA79ZBRJEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fA79ZRRJEe-mnuG5MiuBVA" points="[5, 0, -228, -42]$[228, 41, -5, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA9LhhRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA9LhxRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fA9ykBRJEe-mnuG5MiuBVA" type="4001" element="_e__iMBRJEe-mnuG5MiuBVA" source="_njbUA__eEe6m6_P34_uPNg" target="_oK5jsP_eEe6m6_P34_uPNg">
+          <children xmi:type="notation:Node" xmi:id="_fA-ZoBRJEe-mnuG5MiuBVA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA-ZoRRJEe-mnuG5MiuBVA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA-ZohRJEe-mnuG5MiuBVA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA-ZoxRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA_AsBRJEe-mnuG5MiuBVA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA_AsRRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fA9ykRRJEe-mnuG5MiuBVA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fA9ykhRJEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fA9ykxRJEe-mnuG5MiuBVA" points="[-2, 5, 8, -39]$[-9, 39, 1, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA_AshRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fA_AsxRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fA_nwBRJEe-mnuG5MiuBVA" type="4001" element="_fAAJQBRJEe-mnuG5MiuBVA" source="_mjlLI__fEe6m6_P34_uPNg" target="_nIIpsP_fEe6m6_P34_uPNg">
+          <children xmi:type="notation:Node" xmi:id="_fA_nxBRJEe-mnuG5MiuBVA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA_nxRRJEe-mnuG5MiuBVA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA_nxhRJEe-mnuG5MiuBVA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA_nxxRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fA_nyBRJEe-mnuG5MiuBVA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fA_nyRRJEe-mnuG5MiuBVA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fA_nwRRJEe-mnuG5MiuBVA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fA_nwhRJEe-mnuG5MiuBVA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fA_nwxRJEe-mnuG5MiuBVA" points="[5, 0, -198, -32]$[198, 31, -5, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fBA14BRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fBA14RRJEe-mnuG5MiuBVA" id="(0.5,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_MzkGgP_bEe6m6_P34_uPNg" source="DANNOTATION_CUSTOMIZATION_KEY">
@@ -8288,7 +8474,7 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_CIFT4P_eEe6m6_P34_uPNg" name="Estimate Time &amp; Cost" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#7866ff21-7f09-4327-832c-34fedbe116b0"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#7866ff21-7f09-4327-832c-34fedbe116b0"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_iQASk__eEe6m6_P34_uPNg" name="FIP 1" incomingEdges="_iQASl__eEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_iQASk__eEe6m6_P34_uPNg" name="FIP 1" outgoingEdges="_e_1xMBRJEe-mnuG5MiuBVA" incomingEdges="_iQASl__eEe6m6_P34_uPNg" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#962ef698-9001-4a7f-ad9f-2942bb8e4cc8"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#962ef698-9001-4a7f-ad9f-2942bb8e4cc8"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_iQASlv_eEe6m6_P34_uPNg"/>
@@ -8300,7 +8486,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@borderedNodeMappings[name='CA%20Flow%20Port%20on%20System%20Function']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_njHyAP_eEe6m6_P34_uPNg" name="FOP 1" outgoingEdges="_njIZF__eEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_njHyAP_eEe6m6_P34_uPNg" name="FOP 1" outgoingEdges="_njIZF__eEe6m6_P34_uPNg" incomingEdges="_e_1xMBRJEe-mnuG5MiuBVA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#e7bfe383-3a36-4af0-9b7c-f9a882124c9b"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#e7bfe383-3a36-4af0-9b7c-f9a882124c9b"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_njIZEv_eEe6m6_P34_uPNg"/>
@@ -8323,7 +8509,7 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_k1cDwP_eEe6m6_P34_uPNg" name="Gather Fundings" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#2909e945-b341-4b58-9d32-590accd50213"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#2909e945-b341-4b58-9d32-590accd50213"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_njIZE__eEe6m6_P34_uPNg" name="FIP 1" incomingEdges="_njIZF__eEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_njIZE__eEe6m6_P34_uPNg" name="FIP 1" outgoingEdges="_e__iMBRJEe-mnuG5MiuBVA" incomingEdges="_njIZF__eEe6m6_P34_uPNg" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#f400b639-0e4d-42ff-9f70-ff0bd225d20c"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#f400b639-0e4d-42ff-9f70-ff0bd225d20c"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_njIZFv_eEe6m6_P34_uPNg"/>
@@ -8335,7 +8521,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@borderedNodeMappings[name='CA%20Flow%20Port%20on%20System%20Function']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_oKt9gP_eEe6m6_P34_uPNg" name="FOP 1" outgoingEdges="_oKukkP_eEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_oKt9gP_eEe6m6_P34_uPNg" name="FOP 1" outgoingEdges="_oKukkP_eEe6m6_P34_uPNg" incomingEdges="_e__iMBRJEe-mnuG5MiuBVA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#da881266-2d11-4aed-8ea0-0c4733ad22a8"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#da881266-2d11-4aed-8ea0-0c4733ad22a8"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_oKt9g__eEe6m6_P34_uPNg"/>
@@ -8382,7 +8568,9 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" uid="_CpHV0QAJEe-5GdGgHFzWWw" labelColor="9,92,46" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" color="197,255,166">
+        <ownedStyle xmi:type="diagram:Square" uid="_CpHV0QAJEe-5GdGgHFzWWw" labelColor="9,92,46" borderSize="4" borderSizeComputationExpression="1" borderColor="24,114,248" labelPosition="node" color="197,255,166">
+          <customFeatures>borderColor</customFeatures>
+          <customFeatures>borderSize</customFeatures>
           <labelFormat>italic</labelFormat>
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@conditionnalStyles.5/@style"/>
         </ownedStyle>
@@ -8391,7 +8579,7 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_fVGyQP_fEe6m6_P34_uPNg" name="Samples &amp; Data Collecting" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#b0bd5854-422b-417a-9ff6-6ca7796f3b94"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#b0bd5854-422b-417a-9ff6-6ca7796f3b94"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_mjJtVP_fEe6m6_P34_uPNg" name="FIP 1" incomingEdges="_mjJtWP_fEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_mjJtVP_fEe6m6_P34_uPNg" name="FIP 1" outgoingEdges="_fAAJQBRJEe-mnuG5MiuBVA" incomingEdges="_mjJtWP_fEe6m6_P34_uPNg" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#37ba40d7-671b-49ca-af13-2ff61a446f2d"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#37ba40d7-671b-49ca-af13-2ff61a446f2d"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_mjJtV__fEe6m6_P34_uPNg"/>
@@ -8403,7 +8591,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@borderedNodeMappings[name='CA%20Flow%20Port%20on%20System%20Function']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_nH3j8P_fEe6m6_P34_uPNg" name="FOP 1" outgoingEdges="_nH4LBv_fEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_nH3j8P_fEe6m6_P34_uPNg" name="FOP 1" outgoingEdges="_nH4LBv_fEe6m6_P34_uPNg" incomingEdges="_fAAJQBRJEe-mnuG5MiuBVA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#05600403-5a02-45a3-ad0d-89f870da3c5a"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#05600403-5a02-45a3-ad0d-89f870da3c5a"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_nH4LAf_fEe6m6_P34_uPNg"/>
@@ -8418,7 +8606,9 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" uid="_CpH84QAJEe-5GdGgHFzWWw" labelColor="9,92,46" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" color="197,255,166">
+        <ownedStyle xmi:type="diagram:Square" uid="_CpH84QAJEe-5GdGgHFzWWw" labelColor="9,92,46" borderSize="4" borderSizeComputationExpression="1" borderColor="24,114,248" labelPosition="node" color="197,255,166">
+          <customFeatures>borderColor</customFeatures>
+          <customFeatures>borderSize</customFeatures>
           <labelFormat>italic</labelFormat>
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@conditionnalStyles.5/@style"/>
         </ownedStyle>
@@ -8442,7 +8632,9 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" uid="_5fjQcP_gEe6m6_P34_uPNg" labelColor="9,92,46" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" color="197,255,166">
+        <ownedStyle xmi:type="diagram:Square" uid="_5fjQcP_gEe6m6_P34_uPNg" labelColor="9,92,46" borderSize="4" borderSizeComputationExpression="1" borderColor="24,114,248" labelPosition="node" color="197,255,166">
+          <customFeatures>borderColor</customFeatures>
+          <customFeatures>borderSize</customFeatures>
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']"/>
@@ -8492,7 +8684,7 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_Jacjsv_dEe6m6_P34_uPNg" name="Conduct Research" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#6fa387fb-ccf4-4004-9cff-e6235996d929"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#6fa387fb-ccf4-4004-9cff-e6235996d929"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Jae_-__dEe6m6_P34_uPNg" name="outCompile Report" outgoingEdges="_JafnAv_dEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Jae_-__dEe6m6_P34_uPNg" name="outCompile Report" outgoingEdges="_JafnAv_dEe6m6_P34_uPNg" incomingEdges="_e_9F8BRJEe-mnuG5MiuBVA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#d4fff22d-e87a-43d4-9e53-f216db4f2153"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#d4fff22d-e87a-43d4-9e53-f216db4f2153"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_Jae__v_dEe6m6_P34_uPNg"/>
@@ -8504,7 +8696,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@borderedNodeMappings[name='CA%20Flow%20Port%20on%20System%20Function']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_nH4LAv_fEe6m6_P34_uPNg" name="FIP 2" incomingEdges="_nH4LBv_fEe6m6_P34_uPNg _l3qGQAAUEe-5GdGgHFzWWw" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_nH4LAv_fEe6m6_P34_uPNg" name="FIP 2" outgoingEdges="_e_9F8BRJEe-mnuG5MiuBVA" incomingEdges="_nH4LBv_fEe6m6_P34_uPNg _l3qGQAAUEe-5GdGgHFzWWw" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#32aa14d1-9729-4885-86fa-21dbedeae108"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#32aa14d1-9729-4885-86fa-21dbedeae108"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_nH4LBf_fEe6m6_P34_uPNg"/>
@@ -8524,7 +8716,7 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_Jacjtf_dEe6m6_P34_uPNg" name="Report Findings From Research" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#355fc301-29c7-443e-aadb-84eb690ca40d"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#355fc301-29c7-443e-aadb-84eb690ca40d"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Jae____dEe6m6_P34_uPNg" name="inCompile Report" incomingEdges="_JafnAv_dEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Jae____dEe6m6_P34_uPNg" name="inCompile Report" outgoingEdges="_e_7QwBRJEe-mnuG5MiuBVA" incomingEdges="_JafnAv_dEe6m6_P34_uPNg" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#448af0ca-959b-4285-ab35-94a969e2c44e"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#448af0ca-959b-4285-ab35-94a969e2c44e"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_JafAAv_dEe6m6_P34_uPNg"/>
@@ -8536,7 +8728,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@borderedNodeMappings[name='CA%20Flow%20Port%20on%20System%20Function']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_JafAA__dEe6m6_P34_uPNg" name="outReport the Experimental Findings back to Headquarters" outgoingEdges="_LpE-gP_dEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_JafAA__dEe6m6_P34_uPNg" name="outReport the Experimental Findings back to Headquarters" outgoingEdges="_LpE-gP_dEe6m6_P34_uPNg" incomingEdges="_e_7QwBRJEe-mnuG5MiuBVA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#5e62be2f-d44c-43d4-8ebe-7f5f943553fe"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#5e62be2f-d44c-43d4-8ebe-7f5f943553fe"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_JafABv_dEe6m6_P34_uPNg"/>
@@ -8589,7 +8781,9 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" uid="_KgGkMf_dEe6m6_P34_uPNg" labelColor="9,92,46" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" color="197,255,166">
+        <ownedStyle xmi:type="diagram:Square" uid="_KgGkMf_dEe6m6_P34_uPNg" labelColor="9,92,46" borderSize="4" borderSizeComputationExpression="1" borderColor="24,114,248" labelPosition="node" color="197,255,166">
+          <customFeatures>borderColor</customFeatures>
+          <customFeatures>borderSize</customFeatures>
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']"/>
@@ -8597,7 +8791,7 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_KgGkM__dEe6m6_P34_uPNg" name="Provide Monety Support" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#5a8dd6c1-9ec4-47e4-8a7b-d5c94c03bdbe"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#5a8dd6c1-9ec4-47e4-8a7b-d5c94c03bdbe"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KgJnh__dEe6m6_P34_uPNg" name="inAfter Finding New Area to Research" incomingEdges="_oKukkP_eEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KgJnh__dEe6m6_P34_uPNg" name="inAfter Finding New Area to Research" outgoingEdges="_e_6psBRJEe-mnuG5MiuBVA" incomingEdges="_oKukkP_eEe6m6_P34_uPNg" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#478ec851-c841-4539-b7c0-f0ba00c7fcc6"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#478ec851-c841-4539-b7c0-f0ba00c7fcc6"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_KgJniv_dEe6m6_P34_uPNg"/>
@@ -8606,7 +8800,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@borderedNodeMappings[name='CA%20Flow%20Port%20on%20System%20Function']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KgJni__dEe6m6_P34_uPNg" name="outProvide Money and Supply for Research" outgoingEdges="_LpE-if_dEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KgJni__dEe6m6_P34_uPNg" name="outProvide Money and Supply for Research" outgoingEdges="_LpE-if_dEe6m6_P34_uPNg" incomingEdges="_e_6psBRJEe-mnuG5MiuBVA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#b5b2b7f0-2445-4a86-a140-dd9f3579c19c"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#b5b2b7f0-2445-4a86-a140-dd9f3579c19c"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_KgJnjv_dEe6m6_P34_uPNg"/>
@@ -8641,7 +8835,7 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_LpAF8P_dEe6m6_P34_uPNg" name="Relay Information &amp; Supply" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#0829ce03-4acb-4577-8012-1d2f8675d743"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#0829ce03-4acb-4577-8012-1d2f8675d743"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_LpDJVP_dEe6m6_P34_uPNg" name="inProvide Money and Supply for Research" incomingEdges="_LpE-if_dEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_LpDJVP_dEe6m6_P34_uPNg" name="inProvide Money and Supply for Research" outgoingEdges="_e_-UEBRJEe-mnuG5MiuBVA" incomingEdges="_LpE-if_dEe6m6_P34_uPNg" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#bd4c3453-0726-479f-95e2-c2876a1ec185"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#bd4c3453-0726-479f-95e2-c2876a1ec185"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_LpDwUv_dEe6m6_P34_uPNg"/>
@@ -8650,7 +8844,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@borderedNodeMappings[name='CA%20Flow%20Port%20on%20System%20Function']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_LpDwV__dEe6m6_P34_uPNg" name="outGive Supply &amp; Additional Technical Support" outgoingEdges="_LpE-kv_dEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_LpDwV__dEe6m6_P34_uPNg" name="outGive Supply &amp; Additional Technical Support" outgoingEdges="_LpE-kv_dEe6m6_P34_uPNg" incomingEdges="_e_-UEBRJEe-mnuG5MiuBVA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#690d8c89-b7c8-4c58-9efa-c5b832f6b0fd"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#690d8c89-b7c8-4c58-9efa-c5b832f6b0fd"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_LpDwWv_dEe6m6_P34_uPNg"/>
@@ -8673,7 +8867,7 @@
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_LpAtAP_dEe6m6_P34_uPNg" name="Additional Experiments &amp; Reports" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#592c7576-cdbf-48c2-96c1-9df5b530c7b9"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Test.capella#592c7576-cdbf-48c2-96c1-9df5b530c7b9"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_LpDwW__dEe6m6_P34_uPNg" name="inReport the Experimental Findings back to Headquarters" incomingEdges="_LpE-gP_dEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_LpDwW__dEe6m6_P34_uPNg" name="inReport the Experimental Findings back to Headquarters" outgoingEdges="_e_4NcBRJEe-mnuG5MiuBVA" incomingEdges="_LpE-gP_dEe6m6_P34_uPNg" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#5a590caa-cfa4-4b1e-8627-b7fd084e63c1"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionInputPort" href="Test.capella#5a590caa-cfa4-4b1e-8627-b7fd084e63c1"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_LpDwXv_dEe6m6_P34_uPNg"/>
@@ -8685,7 +8879,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@borderedNodeMappings[name='CA%20Flow%20Port%20on%20System%20Function']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_GVSMwP_hEe6m6_P34_uPNg" name="FOP 2" outgoingEdges="_GVSz1__hEe6m6_P34_uPNg" width="1" height="1">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_GVSMwP_hEe6m6_P34_uPNg" name="FOP 2" outgoingEdges="_GVSz1__hEe6m6_P34_uPNg" incomingEdges="_e_4NcBRJEe-mnuG5MiuBVA" width="1" height="1">
           <target xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#17efdfb8-c6e2-4ae0-86a5-e365f79a47e3"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort" href="Test.capella#17efdfb8-c6e2-4ae0-86a5-e365f79a47e3"/>
           <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_GVSz0v_hEe6m6_P34_uPNg"/>
@@ -8709,8 +8903,10 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_JafnAv_dEe6m6_P34_uPNg" name="Compile Report" sourceNode="_Jae_-__dEe6m6_P34_uPNg" targetNode="_Jae____dEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#09023a81-cd0d-42a2-b39b-822b4c7a0f4d"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#09023a81-cd0d-42a2-b39b-822b4c7a0f4d"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_JafnA__dEe6m6_P34_uPNg" targetArrow="NoDecoration" routingStyle="manhattan" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_JafnA__dEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" routingStyle="manhattan" centered="Both" strokeColor="24,114,248">
         <customFeatures>routingStyle</customFeatures>
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_JafnBP_dEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_JafnBv_dEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8721,8 +8917,10 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LpE-gP_dEe6m6_P34_uPNg" name="Report the Experimental Findings back to Headquarters" sourceNode="_JafAA__dEe6m6_P34_uPNg" targetNode="_LpDwW__dEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#d4594f38-3451-4038-bcef-f781183fb9f6"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#d4594f38-3451-4038-bcef-f781183fb9f6"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LpE-gf_dEe6m6_P34_uPNg" targetArrow="NoDecoration" routingStyle="manhattan" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LpE-gf_dEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" routingStyle="manhattan" centered="Both" strokeColor="24,114,248">
         <customFeatures>routingStyle</customFeatures>
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_LpE-gv_dEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LpE-hP_dEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8733,8 +8931,10 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LpE-if_dEe6m6_P34_uPNg" name="Provide Money and Supply for Research" sourceNode="_KgJni__dEe6m6_P34_uPNg" targetNode="_LpDJVP_dEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#71071b97-6fd4-4054-822c-8c5197aa3980"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#71071b97-6fd4-4054-822c-8c5197aa3980"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LpE-iv_dEe6m6_P34_uPNg" targetArrow="NoDecoration" routingStyle="manhattan" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LpE-iv_dEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" routingStyle="manhattan" centered="Both" strokeColor="24,114,248">
         <customFeatures>routingStyle</customFeatures>
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_LpE-i__dEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LpE-jf_dEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8745,8 +8945,10 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LpE-kv_dEe6m6_P34_uPNg" name="Give Supply &amp; Additional Technical Support" sourceNode="_LpDwV__dEe6m6_P34_uPNg" targetNode="_JaeY8P_dEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#70eb203f-430f-4f69-a2d3-8497e3f32b9a"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#70eb203f-430f-4f69-a2d3-8497e3f32b9a"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LpE-k__dEe6m6_P34_uPNg" targetArrow="NoDecoration" routingStyle="manhattan" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LpE-k__dEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" routingStyle="manhattan" centered="Both" strokeColor="24,114,248">
         <customFeatures>routingStyle</customFeatures>
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_LpE-lP_dEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LpE-lv_dEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8757,8 +8959,10 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_iQASl__eEe6m6_P34_uPNg" name="After Defining a Specific Research Area" sourceNode="_iP_rgP_eEe6m6_P34_uPNg" targetNode="_iQASk__eEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#566142c8-ba73-4540-bf8f-13d8dc49a3ad"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#566142c8-ba73-4540-bf8f-13d8dc49a3ad"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_iQA5oP_eEe6m6_P34_uPNg" targetArrow="NoDecoration" routingStyle="manhattan" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_iQA5oP_eEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" routingStyle="manhattan" centered="Both" strokeColor="24,114,248">
         <customFeatures>routingStyle</customFeatures>
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_iQA5of_eEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_iQA5o__eEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8769,7 +8973,9 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_njIZF__eEe6m6_P34_uPNg" name="Estimating Cost Has Been Finished &amp; Approval Has Been Granted By Respective Authority" sourceNode="_njHyAP_eEe6m6_P34_uPNg" targetNode="_njIZE__eEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#fdf89d73-c670-4c3b-b359-37575d17cc04"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#fdf89d73-c670-4c3b-b359-37575d17cc04"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_njIZGP_eEe6m6_P34_uPNg" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_njIZGP_eEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_njIZGf_eEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_njIZG__eEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8780,8 +8986,10 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_oKukkP_eEe6m6_P34_uPNg" name="Budget Has Been Secured from Taxes, Donations, Loans, etc." sourceNode="_oKt9gP_eEe6m6_P34_uPNg" targetNode="_KgJnh__dEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#da594bf4-e62a-48fc-85f8-fb89515294fa"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#da594bf4-e62a-48fc-85f8-fb89515294fa"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_oKukkf_eEe6m6_P34_uPNg" targetArrow="NoDecoration" routingStyle="manhattan" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_oKukkf_eEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" routingStyle="manhattan" centered="Both" strokeColor="24,114,248">
         <customFeatures>routingStyle</customFeatures>
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_oKukkv_eEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_oKuklP_eEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8792,7 +9000,9 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_mjJtWP_fEe6m6_P34_uPNg" name="Collect Sample &amp; Data After Planning &amp; Preparations" sourceNode="_mjJtUP_fEe6m6_P34_uPNg" targetNode="_mjJtVP_fEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#92dd1d01-0d83-48e4-92d4-3a809847700c"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#92dd1d01-0d83-48e4-92d4-3a809847700c"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_mjJtWf_fEe6m6_P34_uPNg" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_mjJtWf_fEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_mjJtWv_fEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_mjJtXP_fEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8803,8 +9013,10 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_nH4LBv_fEe6m6_P34_uPNg" name="Finish the Sample &amp; Data Collecting Phase" sourceNode="_nH3j8P_fEe6m6_P34_uPNg" targetNode="_nH4LAv_fEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#d028e70f-4e66-408e-ab77-7fa00751b4f7"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#d028e70f-4e66-408e-ab77-7fa00751b4f7"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_nH4LB__fEe6m6_P34_uPNg" targetArrow="NoDecoration" routingStyle="manhattan" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_nH4LB__fEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" routingStyle="manhattan" centered="Both" strokeColor="24,114,248">
         <customFeatures>routingStyle</customFeatures>
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_nH4LCP_fEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_nH4LCv_fEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8815,8 +9027,10 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_GVSz1__hEe6m6_P34_uPNg" name="Final Preparations Has Done Before Sending the Results" sourceNode="_GVSMwP_hEe6m6_P34_uPNg" targetNode="_GVSz0__hEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#4c2a7fbc-ca25-48b3-90f6-4d4dd48ac081"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#4c2a7fbc-ca25-48b3-90f6-4d4dd48ac081"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GVSz2P_hEe6m6_P34_uPNg" targetArrow="NoDecoration" routingStyle="manhattan" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_GVSz2P_hEe6m6_P34_uPNg" targetArrow="NoDecoration" size="4" routingStyle="manhattan" centered="Both" strokeColor="24,114,248">
         <customFeatures>routingStyle</customFeatures>
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_GVSz2f_hEe6m6_P34_uPNg" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_GVSz2__hEe6m6_P34_uPNg" labelColor="9,92,46"/>
@@ -8827,13 +9041,104 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_l3qGQAAUEe-5GdGgHFzWWw" name="Finish the Sample &amp; Data Collecting Phase" sourceNode="_l3mb0AAUEe-5GdGgHFzWWw" targetNode="_nH4LAv_fEe6m6_P34_uPNg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#d028e70f-4e66-408e-ab77-7fa00751b4f7"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Test.capella#d028e70f-4e66-408e-ab77-7fa00751b4f7"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_l3qGQQAUEe-5GdGgHFzWWw" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_l3qGQQAUEe-5GdGgHFzWWw" targetArrow="NoDecoration" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <customFeatures>size</customFeatures>
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']/@conditionnalStyles.0/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_l3qGQgAUEe-5GdGgHFzWWw" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_l3qGRAAUEe-5GdGgHFzWWw" labelColor="9,92,46"/>
         <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_l3qGQwAUEe-5GdGgHFzWWw" labelColor="255,255,255"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_e_FjQBRJEe-mnuG5MiuBVA" name="Basic (Normal) Research Function Chain" width="2" height="2" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_e_H_gBRJEe-mnuG5MiuBVA" borderSize="1" borderSizeComputationExpression="1" width="2" height="2" color="24,114,248">
+        <customFeatures>color</customFeatures>
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@nodeMappings[name='CA_FunctionalChainEnd']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@nodeMappings[name='CA_FunctionalChainEnd']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_e_1xMBRJEe-mnuG5MiuBVA" sourceNode="_iQASk__eEe6m6_P34_uPNg" targetNode="_njHyAP_eEe6m6_P34_uPNg">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_e_2_UBRJEe-mnuG5MiuBVA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_e_2_URRJEe-mnuG5MiuBVA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_e_4NcBRJEe-mnuG5MiuBVA" sourceNode="_LpDwW__dEe6m6_P34_uPNg" targetNode="_GVSMwP_hEe6m6_P34_uPNg">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_e_5bkBRJEe-mnuG5MiuBVA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_e_5bkRRJEe-mnuG5MiuBVA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_e_6psBRJEe-mnuG5MiuBVA" sourceNode="_KgJnh__dEe6m6_P34_uPNg" targetNode="_KgJni__dEe6m6_P34_uPNg">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_e_6psRRJEe-mnuG5MiuBVA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_e_6pshRJEe-mnuG5MiuBVA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_e_7QwBRJEe-mnuG5MiuBVA" sourceNode="_Jae____dEe6m6_P34_uPNg" targetNode="_JafAA__dEe6m6_P34_uPNg">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_e_730BRJEe-mnuG5MiuBVA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_e_730RRJEe-mnuG5MiuBVA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_e_9F8BRJEe-mnuG5MiuBVA" sourceNode="_nH4LAv_fEe6m6_P34_uPNg" targetNode="_Jae_-__dEe6m6_P34_uPNg">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_e_9tABRJEe-mnuG5MiuBVA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_e_9tARRJEe-mnuG5MiuBVA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_e_-UEBRJEe-mnuG5MiuBVA" sourceNode="_LpDJVP_dEe6m6_P34_uPNg" targetNode="_LpDwV__dEe6m6_P34_uPNg">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_e_-7IBRJEe-mnuG5MiuBVA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_e_-7IRRJEe-mnuG5MiuBVA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_e__iMBRJEe-mnuG5MiuBVA" sourceNode="_njIZE__eEe6m6_P34_uPNg" targetNode="_oKt9gP_eEe6m6_P34_uPNg">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_e__iMRRJEe-mnuG5MiuBVA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_e__iMhRJEe-mnuG5MiuBVA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_fAAJQBRJEe-mnuG5MiuBVA" sourceNode="_mjJtVP_fEe6m6_P34_uPNg" targetNode="_nH3j8P_fEe6m6_P34_uPNg">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChain" href="Test.capella#618fc151-4453-4cd5-b49c-bbd02b41a940"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_fAAwUBRJEe-mnuG5MiuBVA" targetArrow="InputFillClosedArrow" size="4" centered="Both" strokeColor="24,114,248">
+        <customFeatures>strokeColor</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_fAAwURRJEe-mnuG5MiuBVA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA_InternLink']"/>
     </ownedDiagramElements>
     <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
     <currentConcern xmi:type="concern:ConcernDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@concerns/@ownedConcernDescriptions.0"/>
