@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
+    xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
+    xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
+    xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/6.0.0"
+    xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0"
+    xmlns:org.polarsys.capella.core.data.ctx="http://www.polarsys.org/capella/core/ctx/6.0.0"
+    xmlns:org.polarsys.capella.core.data.fa="http://www.polarsys.org/capella/core/fa/6.0.0"
+    xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/6.0.0"
+    xmlns:org.polarsys.capella.core.data.information.datatype="http://www.polarsys.org/capella/core/information/datatype/6.0.0"
+    xmlns:org.polarsys.capella.core.data.information.datavalue="http://www.polarsys.org/capella/core/information/datavalue/6.0.0"
+    xmlns:org.polarsys.capella.core.data.interaction="http://www.polarsys.org/capella/core/interaction/6.0.0"
+    xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/6.0.0"
+    xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="f3578eb4-0b86-49cd-8a11-67d36a3ea1f4"
+    name="MJIII.LHM">
+  <ownedExtensions xsi:type="libraries:ModelInformation" id="335b7c51-1ecc-4f4c-9009-f87bd91482b3"/>
+  <ownedEnumerationPropertyTypes xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyType"
+      id="247530f5-9756-4d82-b204-61ae0ded49b3" name="ProgressStatus">
+    <ownedLiterals xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyLiteral"
+        id="57f59690-b222-44d9-93c9-a24b1e9158d0" name="DRAFT"/>
+    <ownedLiterals xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyLiteral"
+        id="f5c65c48-e878-4fdc-90ee-1dab06fac04b" name="TO_BE_REVIEWED"/>
+    <ownedLiterals xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyLiteral"
+        id="80c020ec-4195-48f9-b19b-c021ed70464b" name="TO_BE_DISCUSSED"/>
+    <ownedLiterals xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyLiteral"
+        id="812ce684-107f-4157-a226-bacc665e352b" name="REWORK_NECESSARY"/>
+    <ownedLiterals xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyLiteral"
+        id="c5a67960-03fa-4ce4-84ee-362c8104d1c3" name="UNDER_REWORK"/>
+    <ownedLiterals xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyLiteral"
+        id="c239d3cc-ef4b-4ebe-bd6c-8b34802115b2" name="REVIEWED_OK"/>
+  </ownedEnumerationPropertyTypes>
+  <keyValuePairs xsi:type="org.polarsys.capella.core.data.capellacore:KeyValue" id="6cbf5725-b22f-49ae-b1b6-c159300cb7fd"
+      key="projectApproach" value="SingletonComponents"/>
+  <ownedModelRoots xsi:type="org.polarsys.capella.core.data.capellamodeller:SystemEngineering"
+      id="1c034e0b-540f-413d-813c-cd0c5d08d4e0" name="MJIII.LHM">
+    <ownedArchitectures xsi:type="org.polarsys.capella.core.data.oa:OperationalAnalysis"
+        id="56023d53-e28a-406f-b3a6-d76a8935bdf8" name="Operational Analysis">
+      <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
+          id="ea235dfe-324c-49bf-8716-f0dd0b8257b2" name="Operational Activities">
+        <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+            id="40f7344c-b51e-487e-83d9-bb145da0bf74" name="Root Operational Activity">
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="8b593e1d-8bfc-43b3-a224-43bf80b23111" name="OperationalProcess 1">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="5b7512af-84e4-4977-b78f-29dca87c8aeb" involved="#5aa89b23-a0d9-4292-8e96-1ddcb4df4575"
+                source="#2ef17804-8d61-48ef-bdda-a409d279b4bc" target="#eb22fb94-921d-4bc5-be9e-75bab0514178"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="eb22fb94-921d-4bc5-be9e-75bab0514178" involved="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="2ef17804-8d61-48ef-bdda-a409d279b4bc" involved="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+          </ownedFunctionalChains>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="16831ba3-fc75-4f4c-9cad-0dfaea23b7ab" name="Obtain Mineral Sample"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="210a8b6d-ffa8-4acb-a99c-01064194f171" name="Analyse Mineral Sample"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="1a7e6ddf-5ac9-415c-96c8-8befde134fb7" name="Update LHM Activity to Ground Segment"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="e953f3c2-8d90-44c6-9b64-2e6ba6cd8230" name="Further Instructions for Mineral Sampling Mission"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="719bf1a1-2fc0-444b-b670-0b84d9483dff" name="Transfer mineral to Laboratory"
+              target="#210a8b6d-ffa8-4acb-a99c-01064194f171" source="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5aa89b23-a0d9-4292-8e96-1ddcb4df4575" name="Document LHM Activity"
+              target="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7" source="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="a4ede189-53aa-4697-8a9b-fdd65dc411af" name="Update LG Mineral Sampling Mission"
+              target="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230" source="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d0189d99-f55d-424c-b6f7-63f8a417366c" name="Update LHM Mineral Sampling Mission"
+              target="#210a8b6d-ffa8-4acb-a99c-01064194f171" source="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230"/>
+        </ownedOperationalActivities>
+      </ownedFunctionPkg>
+      <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
+          id="29839bd9-4e1f-4988-ac54-0f2ae2def5a1" name="Operational Capabilities">
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="185e2157-48c4-4000-b3f8-47667e0a1ce9" name="LG and LHM: Mineral Sample">
+          <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
+              id="dd4dd567-5391-4ea1-b179-1ffd26d86579" name="[OES] Maintain Communications between LG and LHM"
+              kind="INTERACTION"/>
+          <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
+              id="ba305a68-af8e-4e7a-83ae-76e6912e064f" name="[OES] Maintain communications between LG and LHM"
+              kind="INTERACTION"/>
+          <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
+              id="a73ef94c-3d1c-4193-bf2f-d31df0037e02" name="[OES] LHM Mineral Sample Analysis"
+              kind="INTERACTION">
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="fe6d1f10-7b3a-42e2-8a59-0c08721215b3" name="Lunar Gateway" representedInstance="#eb03aa4b-1744-4f51-9d79-8c28e112cce0"/>
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="16db69b6-b18c-4ddc-991c-cce7da73f32f" name="Lunar Habitat Module"
+                representedInstance="#fcd9f80c-8aa9-4c68-924b-d9dace6c573a"/>
+            <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
+                id="0545f18c-f299-444d-8b62-15d829cece0a" name="Transfer mineral to Laboratory"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#963c5dd5-dd43-480f-a7e4-1f2c2cdf7b37"
+                receivingEnd="#74486a9e-47c0-47d7-bc14-034bbc358c17"/>
+            <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
+                id="18302b5b-97b0-4c1e-af5d-344b83695dd0" name="Document LHM Activity"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#299a4660-2ea8-4add-aea3-cd25b614f8e1"
+                receivingEnd="#0eed5496-3cdf-44a9-8620-3bcf97f14697"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="55effef5-80e0-4de9-8002-4325b31291af" name="Obtain Mineral Sample"
+                coveredInstanceRoles="#16db69b6-b18c-4ddc-991c-cce7da73f32f" relatedAbstractFunction="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="85c2a41c-0b42-412a-ba85-158872eb68c0" name="Obtain Mineral Sample"
+                coveredInstanceRoles="#16db69b6-b18c-4ddc-991c-cce7da73f32f" relatedAbstractFunction="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="963c5dd5-dd43-480f-a7e4-1f2c2cdf7b37" name="Send Call Message Call"
+                coveredInstanceRoles="#16db69b6-b18c-4ddc-991c-cce7da73f32f" event="#cac9e2a5-d420-47cd-8a11-a72561203439"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="74486a9e-47c0-47d7-bc14-034bbc358c17" name="Receive Call Message Call"
+                coveredInstanceRoles="#16db69b6-b18c-4ddc-991c-cce7da73f32f" event="#a5240e9c-5382-4260-bb79-328fc1449bd1"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="2c482b30-38f0-4353-9a0c-99e45a816f6e" name="Analyse Mineral Sample"
+                coveredInstanceRoles="#16db69b6-b18c-4ddc-991c-cce7da73f32f" relatedAbstractFunction="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="6267d68d-89c5-47eb-9ec4-570944733550" name="Analyse Mineral Sample"
+                coveredInstanceRoles="#16db69b6-b18c-4ddc-991c-cce7da73f32f" relatedAbstractFunction="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
+                id="382b64b8-0c49-46f2-88fa-ad0a66c36201" name="endExec" coveredInstanceRoles="#16db69b6-b18c-4ddc-991c-cce7da73f32f"
+                event="#f9985bf4-1618-483c-96a2-184ae32741f3"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="299a4660-2ea8-4add-aea3-cd25b614f8e1" name="Send Call Message Call"
+                coveredInstanceRoles="#16db69b6-b18c-4ddc-991c-cce7da73f32f" event="#1cb804d2-443a-4ffa-9bd4-74706727fc7a"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="0eed5496-3cdf-44a9-8620-3bcf97f14697" name="Receive Call Message Call"
+                coveredInstanceRoles="#fe6d1f10-7b3a-42e2-8a59-0c08721215b3" event="#89588f89-eaa2-4d9a-ab9a-d531057e8ed9"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="d7490628-6018-4202-a123-25a51000eb89" name="Update LHM Activity to Ground Segment"
+                coveredInstanceRoles="#fe6d1f10-7b3a-42e2-8a59-0c08721215b3" relatedAbstractFunction="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="720c7e82-0762-4ac0-b8fc-617ecb1aebf4" name="Update LHM Activity to Ground Segment"
+                coveredInstanceRoles="#fe6d1f10-7b3a-42e2-8a59-0c08721215b3" relatedAbstractFunction="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
+                id="eee90f03-61ac-4bb1-909f-75fa19c203dc" name="endExec" coveredInstanceRoles="#fe6d1f10-7b3a-42e2-8a59-0c08721215b3"
+                event="#7bcbe9f4-3874-490f-ae5a-44d17238dcc0"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="08e3772a-e5f7-4668-a9f5-d3a19a984b5c" start="#55effef5-80e0-4de9-8002-4325b31291af"
+                finish="#85c2a41c-0b42-412a-ba85-158872eb68c0" relatedAbstractFunction="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="7f3b08c1-d075-4f7d-935d-02f62cfb4d38" start="#2c482b30-38f0-4353-9a0c-99e45a816f6e"
+                finish="#6267d68d-89c5-47eb-9ec4-570944733550" relatedAbstractFunction="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="ec5e2a64-1d45-4609-980b-dde21b1663fa" start="#d7490628-6018-4202-a123-25a51000eb89"
+                finish="#720c7e82-0762-4ac0-b8fc-617ecb1aebf4" relatedAbstractFunction="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
+                id="e859c46d-3c35-4667-acff-a955f0db315b" start="#74486a9e-47c0-47d7-bc14-034bbc358c17"
+                finish="#382b64b8-0c49-46f2-88fa-ad0a66c36201"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
+                id="bc7818fd-d979-4eae-b812-eefaec8e7031" start="#0eed5496-3cdf-44a9-8620-3bcf97f14697"
+                finish="#eee90f03-61ac-4bb1-909f-75fa19c203dc"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
+                id="cac9e2a5-d420-47cd-8a11-a72561203439" operation="#719bf1a1-2fc0-444b-b670-0b84d9483dff"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
+                id="a5240e9c-5382-4260-bb79-328fc1449bd1" operation="#719bf1a1-2fc0-444b-b670-0b84d9483dff"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
+                id="f9985bf4-1618-483c-96a2-184ae32741f3"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
+                id="1cb804d2-443a-4ffa-9bd4-74706727fc7a" operation="#5aa89b23-a0d9-4292-8e96-1ddcb4df4575"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
+                id="89588f89-eaa2-4d9a-ab9a-d531057e8ed9" operation="#5aa89b23-a0d9-4292-8e96-1ddcb4df4575"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
+                id="7bcbe9f4-3874-490f-ae5a-44d17238dcc0"/>
+          </ownedScenarios>
+          <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
+              id="91d4d6f3-1a3a-4532-91ad-77e74041e137" name="[OES] LG Instructs LHM"
+              kind="INTERACTION">
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="c0921bd8-eaeb-4933-a897-127959e70dc3" name="Lunar Gateway" representedInstance="#eb03aa4b-1744-4f51-9d79-8c28e112cce0"/>
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="e796acb2-320e-4e34-ba74-3798740a71b6" name="Lunar Habitat Module"
+                representedInstance="#fcd9f80c-8aa9-4c68-924b-d9dace6c573a"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="f91e1e2e-fbd3-4a50-b411-a5adb7e8ff2b" name="Obtain Mineral Sample"
+                coveredInstanceRoles="#e796acb2-320e-4e34-ba74-3798740a71b6" relatedAbstractFunction="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="a32e53dc-fc17-437c-8944-a5ff0e747577" name="Obtain Mineral Sample"
+                coveredInstanceRoles="#e796acb2-320e-4e34-ba74-3798740a71b6" relatedAbstractFunction="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="a03e01e7-1de0-4c8f-8ecb-4ecd38a46fa1" name="Further Instructions for Mineral Sampling Mission"
+                coveredInstanceRoles="#c0921bd8-eaeb-4933-a897-127959e70dc3" relatedAbstractFunction="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="fad33fae-0cfb-464c-9b22-5c1b271feffc" name="Further Instructions for Mineral Sampling Mission"
+                coveredInstanceRoles="#c0921bd8-eaeb-4933-a897-127959e70dc3" relatedAbstractFunction="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="e7a77070-1475-4c15-8979-216694cdb6c6" name="Analyse Mineral Sample"
+                coveredInstanceRoles="#e796acb2-320e-4e34-ba74-3798740a71b6" relatedAbstractFunction="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="88f28b40-eefb-49e6-805a-887f2beb63f5" name="Analyse Mineral Sample"
+                coveredInstanceRoles="#e796acb2-320e-4e34-ba74-3798740a71b6" relatedAbstractFunction="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="9805da41-e728-49ad-bb38-168e134fe16e" name="Update LHM Activity to Ground Segment"
+                coveredInstanceRoles="#c0921bd8-eaeb-4933-a897-127959e70dc3" relatedAbstractFunction="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="2550e26d-44c1-4e8a-89f9-89740af33fb8" name="Update LHM Activity to Ground Segment"
+                coveredInstanceRoles="#c0921bd8-eaeb-4933-a897-127959e70dc3" relatedAbstractFunction="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="c88c4439-1197-416d-9790-454eb0da726a" start="#f91e1e2e-fbd3-4a50-b411-a5adb7e8ff2b"
+                finish="#a32e53dc-fc17-437c-8944-a5ff0e747577" relatedAbstractFunction="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="bb56d11e-c6c3-48c1-9afa-eb7a427c48c3" start="#e7a77070-1475-4c15-8979-216694cdb6c6"
+                finish="#88f28b40-eefb-49e6-805a-887f2beb63f5" relatedAbstractFunction="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="aa22141c-7d1f-4d75-9978-cecf2cd5730f" start="#a03e01e7-1de0-4c8f-8ecb-4ecd38a46fa1"
+                finish="#fad33fae-0cfb-464c-9b22-5c1b271feffc" relatedAbstractFunction="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="31dedfda-2e9b-4563-8147-8fb11e5ab84a" start="#9805da41-e728-49ad-bb38-168e134fe16e"
+                finish="#2550e26d-44c1-4e8a-89f9-89740af33fb8" relatedAbstractFunction="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+          </ownedScenarios>
+          <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
+              id="7b56bc92-610b-4f9e-8e0b-65ec6802fc69" name="[OES] LG instructs LHM"
+              kind="INTERACTION">
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="28e83a15-7e8d-4cf7-85f8-dd1518ce7503" name="Lunar Gateway" representedInstance="#eb03aa4b-1744-4f51-9d79-8c28e112cce0"/>
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="f38e7e13-2075-4e42-8ede-f0915f66f760" name="Lunar Habitat Module"
+                representedInstance="#fcd9f80c-8aa9-4c68-924b-d9dace6c573a"/>
+            <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
+                id="0834ddcc-2018-42f5-90a1-bb619cd7f985" name="Update LG Mineral Sampling Mission"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#a158188b-f128-4b1a-b494-01478b35ae7d"
+                receivingEnd="#ce4d6c9a-8424-4eaa-a372-b88897dfac9f"/>
+            <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
+                id="77427a02-470b-45c1-9d6b-9120fdb05213" name="Update LHM Mineral Sampling Mission"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#4fcb1004-b579-498a-b393-de4cc8eecdd7"
+                receivingEnd="#dcaab666-529a-4ea9-89c9-b2d6b7d169bf"/>
+            <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
+                id="2cf0e1b7-28c3-4075-b0cb-ab87a5ee574d" name="Document LHM Activity"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#57534835-4419-49c5-924b-0b149d023185"
+                receivingEnd="#0dfcc1f5-e0ab-40a6-8a24-f682ad802810"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="0e3f6d1d-97e8-4707-b3d2-f384797cbd6a" name="Obtain Mineral Sample"
+                coveredInstanceRoles="#f38e7e13-2075-4e42-8ede-f0915f66f760" relatedAbstractFunction="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="43f128b4-9254-4bd7-a1c8-ef7db5d2249c" name="Obtain Mineral Sample"
+                coveredInstanceRoles="#f38e7e13-2075-4e42-8ede-f0915f66f760" relatedAbstractFunction="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="a158188b-f128-4b1a-b494-01478b35ae7d" name="Send Call Message Call"
+                coveredInstanceRoles="#f38e7e13-2075-4e42-8ede-f0915f66f760" event="#c1560a21-223a-4ad3-a0f6-094115a374b5"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="ce4d6c9a-8424-4eaa-a372-b88897dfac9f" name="Receive Call Message Call"
+                coveredInstanceRoles="#28e83a15-7e8d-4cf7-85f8-dd1518ce7503" event="#322aeb4b-4611-41f5-8a9f-caf668e05a43"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="ccaaf4d4-c384-48d6-9136-cd1d01b9e427" name="Further Instructions for Mineral Sampling Mission"
+                coveredInstanceRoles="#28e83a15-7e8d-4cf7-85f8-dd1518ce7503" relatedAbstractFunction="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="3a9ce675-07e8-4660-976b-12735447b76c" name="Further Instructions for Mineral Sampling Mission"
+                coveredInstanceRoles="#28e83a15-7e8d-4cf7-85f8-dd1518ce7503" relatedAbstractFunction="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
+                id="c5d3b91a-9111-4e2f-8f92-4484b4d54437" name="endExec" coveredInstanceRoles="#28e83a15-7e8d-4cf7-85f8-dd1518ce7503"
+                event="#7fee4cb5-0904-4b23-a21f-239a660d70ae"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="4fcb1004-b579-498a-b393-de4cc8eecdd7" name="Send Call Message Call"
+                coveredInstanceRoles="#28e83a15-7e8d-4cf7-85f8-dd1518ce7503" event="#e6456c55-067a-401d-98c9-7ace34708788"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="dcaab666-529a-4ea9-89c9-b2d6b7d169bf" name="Receive Call Message Call"
+                coveredInstanceRoles="#f38e7e13-2075-4e42-8ede-f0915f66f760" event="#1137a5f0-532c-4c2c-beac-e7f068a0ba78"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="6f100148-d6a6-49a1-be18-b0f1f5fbe98e" name="Analyse Mineral Sample"
+                coveredInstanceRoles="#f38e7e13-2075-4e42-8ede-f0915f66f760" relatedAbstractFunction="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="6bc471e0-181d-4784-bc8d-3f34dc238da6" name="Analyse Mineral Sample"
+                coveredInstanceRoles="#f38e7e13-2075-4e42-8ede-f0915f66f760" relatedAbstractFunction="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
+                id="e75a5519-e469-4579-b64e-ec11b6fb2b1b" name="endExec" coveredInstanceRoles="#f38e7e13-2075-4e42-8ede-f0915f66f760"
+                event="#b02b9bc3-e172-4a52-a5a6-bfa3381111ce"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="57534835-4419-49c5-924b-0b149d023185" name="Send Call Message Call"
+                coveredInstanceRoles="#f38e7e13-2075-4e42-8ede-f0915f66f760" event="#514de03a-26e3-4e81-91a4-c815ccdb9a8a"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
+                id="0dfcc1f5-e0ab-40a6-8a24-f682ad802810" name="Receive Call Message Call"
+                coveredInstanceRoles="#28e83a15-7e8d-4cf7-85f8-dd1518ce7503" event="#ab1465f9-1a36-408b-9aaa-aed93444781e"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="03bdd8d2-0d05-4595-9578-0910ad98d272" name="Update LHM Activity to Ground Segment"
+                coveredInstanceRoles="#28e83a15-7e8d-4cf7-85f8-dd1518ce7503" relatedAbstractFunction="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="4753519b-ce09-44bc-92c7-9c88d11c8ec1" name="Update LHM Activity to Ground Segment"
+                coveredInstanceRoles="#28e83a15-7e8d-4cf7-85f8-dd1518ce7503" relatedAbstractFunction="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
+                id="64225ebb-19c7-4591-ba11-9af102fe055e" name="endExec" coveredInstanceRoles="#28e83a15-7e8d-4cf7-85f8-dd1518ce7503"
+                event="#daf1969b-6843-449f-93a3-e4e409f5e9c9"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="fac021eb-6b5e-4e5a-af09-7acb27ec2583" start="#0e3f6d1d-97e8-4707-b3d2-f384797cbd6a"
+                finish="#43f128b4-9254-4bd7-a1c8-ef7db5d2249c" relatedAbstractFunction="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="5d050089-13d3-47b5-9d7f-d61d1b04e9ab" start="#6f100148-d6a6-49a1-be18-b0f1f5fbe98e"
+                finish="#6bc471e0-181d-4784-bc8d-3f34dc238da6" relatedAbstractFunction="#210a8b6d-ffa8-4acb-a99c-01064194f171"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="5d3f0d1c-4574-4c10-b4d9-e6458f1d9c5e" start="#ccaaf4d4-c384-48d6-9136-cd1d01b9e427"
+                finish="#3a9ce675-07e8-4660-976b-12735447b76c" relatedAbstractFunction="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="8f6a010c-7968-4dbe-a5dd-a599c0ae3e9a" start="#03bdd8d2-0d05-4595-9578-0910ad98d272"
+                finish="#4753519b-ce09-44bc-92c7-9c88d11c8ec1" relatedAbstractFunction="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
+                id="e3c120ed-ac1c-4ecb-8e83-3ad29e678d81" start="#ce4d6c9a-8424-4eaa-a372-b88897dfac9f"
+                finish="#c5d3b91a-9111-4e2f-8f92-4484b4d54437"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
+                id="8fbaff63-831e-429e-bc4a-74c2a547f9a6" start="#dcaab666-529a-4ea9-89c9-b2d6b7d169bf"
+                finish="#e75a5519-e469-4579-b64e-ec11b6fb2b1b"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
+                id="354cffc8-c13c-454e-bcf7-8bca8b4287a8" start="#0dfcc1f5-e0ab-40a6-8a24-f682ad802810"
+                finish="#64225ebb-19c7-4591-ba11-9af102fe055e"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
+                id="c1560a21-223a-4ad3-a0f6-094115a374b5" operation="#a4ede189-53aa-4697-8a9b-fdd65dc411af"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
+                id="322aeb4b-4611-41f5-8a9f-caf668e05a43" operation="#a4ede189-53aa-4697-8a9b-fdd65dc411af"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
+                id="7fee4cb5-0904-4b23-a21f-239a660d70ae"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
+                id="e6456c55-067a-401d-98c9-7ace34708788" operation="#d0189d99-f55d-424c-b6f7-63f8a417366c"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
+                id="1137a5f0-532c-4c2c-beac-e7f068a0ba78" operation="#d0189d99-f55d-424c-b6f7-63f8a417366c"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
+                id="b02b9bc3-e172-4a52-a5a6-bfa3381111ce"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
+                id="514de03a-26e3-4e81-91a4-c815ccdb9a8a" operation="#5aa89b23-a0d9-4292-8e96-1ddcb4df4575"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
+                id="ab1465f9-1a36-408b-9aaa-aed93444781e" operation="#5aa89b23-a0d9-4292-8e96-1ddcb4df4575"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
+                id="daf1969b-6843-449f-93a3-e4e409f5e9c9"/>
+          </ownedScenarios>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="ace0fc43-c1ee-4b9b-b6b6-d2457cda65b1" involved="#0a304545-08dd-4010-890e-8f79e9f136cc"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="7b52c570-c081-4f9d-9679-b416c3f3d9a3" involved="#a3e5be5b-3730-47f5-ac48-70fd9e702884"/>
+        </ownedOperationalCapabilities>
+      </ownedAbstractCapabilityPkg>
+      <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
+          id="d77ab5d0-a832-4c3f-b228-1b878f93ebca" name="Interfaces"/>
+      <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
+          id="0850adbf-6144-49e9-a055-f40c1b8a8758" name="Data"/>
+      <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="0c8ae49c-9a65-4fe6-9a6c-a6fd0b3f624c"
+          name="Roles"/>
+      <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="6950840e-ca9b-4558-83a2-06d0695b5c6f"
+          name="Operational Entities">
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="eb03aa4b-1744-4f51-9d79-8c28e112cce0"
+            name="Lunar Gateway" abstractType="#0a304545-08dd-4010-890e-8f79e9f136cc"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="fcd9f80c-8aa9-4c68-924b-d9dace6c573a"
+            name="Lunar Habitat Module" abstractType="#a3e5be5b-3730-47f5-ac48-70fd9e702884"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="4aa36ad6-d3de-49e4-b02a-694e1cddff6e"
+            name="Impact Melt Rocks" abstractType="#bf216767-0e1a-4518-b4cb-1260eb35c3da"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="0a304545-08dd-4010-890e-8f79e9f136cc"
+            name="Lunar Gateway" actor="true" human="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="e1d45904-6c09-4581-8ce9-e2b3de5fe62c" targetElement="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"
+              sourceElement="#0a304545-08dd-4010-890e-8f79e9f136cc"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="9c6fd14f-63ee-47f9-a48a-7fed250803f1" targetElement="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230"
+              sourceElement="#0a304545-08dd-4010-890e-8f79e9f136cc"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a3e5be5b-3730-47f5-ac48-70fd9e702884"
+            name="Lunar Habitat Module" actor="true" human="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="a4e27553-3959-4aba-b171-5c2fd4720e7c" targetElement="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"
+              sourceElement="#a3e5be5b-3730-47f5-ac48-70fd9e702884"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="cd541723-84ff-4a32-9be6-1c44a38d8dd1" targetElement="#210a8b6d-ffa8-4acb-a99c-01064194f171"
+              sourceElement="#a3e5be5b-3730-47f5-ac48-70fd9e702884"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="bf216767-0e1a-4518-b4cb-1260eb35c3da"
+            name="Impact Melt Rocks">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0259cc0a-7421-4c41-bc64-9ee286aebf7a"
+              name="Basalt" abstractType="#0f05c96c-9898-44a1-9625-e9a99d535ef3"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="0f05c96c-9898-44a1-9625-e9a99d535ef3"
+              name="Basalt"/>
+        </ownedEntities>
+      </ownedEntityPkg>
+    </ownedArchitectures>
+    <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
+        id="5adc307a-b7bf-4194-9614-b87e4c20ae07" name="System Analysis">
+      <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
+          id="7065871a-214c-439c-a669-953e67b17086" name="System Functions">
+        <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+            id="6a26fa38-3f9a-4638-af29-5af69a96a154" name="Root System Function">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="14e91e96-b520-4ad6-aeea-8d8261e0648e" name="Remove Lunar Mineral from Containment">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="94c9e505-5985-4f84-8d24-3a326d693155" name="outTransfer mineral to Laboratory"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="9b432f00-b328-4c28-bf93-ff3b0d88e658" name="outUpdate LG Mineral Sampling Mission"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="64ceb2ad-00cf-4f9f-914a-bdc1ce76ad5d" name="FOP 3"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="13c0aee0-bdd6-48f7-b77a-e20e9b20d956" targetElement="#16831ba3-fc75-4f4c-9cad-0dfaea23b7ab"
+                sourceElement="#14e91e96-b520-4ad6-aeea-8d8261e0648e"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="9faf9ac6-cd2a-408b-ba6c-038e9deb9ffe" name="Update LHM Activity to Ground Segment">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="7c6e7397-509d-4d46-bf36-8493ac98dc49" name="inDocument LHM Activity"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="5a31add6-5457-41f0-98dd-5f1d2e08e886" targetElement="#1a7e6ddf-5ac9-415c-96c8-8befde134fb7"
+                sourceElement="#9faf9ac6-cd2a-408b-ba6c-038e9deb9ffe"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="d424066f-ac11-42fd-976d-722954711e3b" name="Further Instructions for Mineral Sampling Mission">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="27c2b759-20ec-4fe9-a879-8635de6862fa" name="inUpdate LG Mineral Sampling Mission"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="7bd6730b-52fc-47ff-84dd-5baa0e19d308" name="outUpdate LHM Mineral Sampling Mission"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="526855c5-dd87-44ca-87a5-c17757c6889b" targetElement="#e953f3c2-8d90-44c6-9b64-2e6ba6cd8230"
+                sourceElement="#d424066f-ac11-42fd-976d-722954711e3b"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="e7e0587d-d672-4b5b-9982-c79259f14b08" name="Initiate Composition Analysis">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="790d26be-68bb-428b-becf-467b2201d8c2" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="84a18135-df19-4408-b152-979fbcbddb75" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="7e9936cd-bfa1-438c-bcd0-c44c45d3ffac" name="Stop Composition Analysis">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="bed79d98-5e2c-4f07-8d5d-3295593f4c2e" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="51187b54-2465-4c00-b7b6-3d32157ea20c" name="FOP 2"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="02ec52d9-3efc-4441-a69f-9c744b1ce372" name="Mineral Composition">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="32b9ab6b-3bfc-419f-8352-dd961daccf09" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="251a632a-a6da-40f5-9b8c-687f658a7c0a" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="52670f93-ec31-4217-bc05-65f641d63895" name="FOP 2"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="d3cf18c1-ad9d-45b0-9611-31f91db089ee" name="Composition Analysis">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="0376e36d-b276-484d-8070-465133a6347f" name="FIP 1"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="b248740e-70e8-4dee-96b6-56e0511d7080" name="FIP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="6292bb73-5043-495f-93de-53988c6d3b10" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="8198828e-02fc-4501-b813-ecd1c5f9b84a" name="FOP 2"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="65296946-e9dd-42e8-8cb9-40e2f8b7a0e7" name="Execute Mineral Analysis">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="d6dfdcb5-080c-46fb-af4f-ce1a4fa300a8" name="FIP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="1a53b8e5-2456-476e-8225-fdf64dddd70f" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="b2192487-0d40-48b7-8961-7644458fc85d" name="Perform Mineral Analysis">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="5c1d7cbc-feba-4a34-9215-553f011ce636" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="35390587-c25e-4678-84f0-2324838661d3" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="a5e10d2d-becb-4e41-b6ea-89e44dccfaab" name="Data Output">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="09b3e937-a7e0-4137-8c60-3d097113a2b4" name="FIP 1"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="d01e35fc-b378-4e99-b16f-0a7678557d83" name="FIP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="6fc2e54e-bdb3-4d98-86af-2143cf0af25e" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="9d1ba0e8-701b-4257-ad3a-ecabf80d5ada" name="Display Data">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="daf9f01e-4bf4-4036-a173-f30e53e8171d" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="bbb9426b-469e-4f5b-b674-61a3409a90ee" name="Assist LHM in obtaining Basaltic Rock">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="5e076b4c-8852-4d0a-b758-b254c2627eaa" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="f3b9847f-e6a2-4608-b5c0-db35e22f9e68" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="69a6fe83-53be-4440-8324-185cc42973eb" name="Target Rock Composition">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="ed8d6aa5-7e68-4587-abd2-51689295491b" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="69429d2a-3386-41d1-9693-d4a08f5e58ad" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+              id="f7e92a61-94dd-456c-a72e-e3415a3077ef" targetElement="#40f7344c-b51e-487e-83d9-bb145da0bf74"
+              sourceElement="#6a26fa38-3f9a-4638-af29-5af69a96a154"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="9f4c192c-ac98-4ab1-a6ea-b7fe4164a284" name="Update LG Mineral Sampling Mission"
+              target="#27c2b759-20ec-4fe9-a879-8635de6862fa" source="#9b432f00-b328-4c28-bf93-ff3b0d88e658">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="b479703a-6752-413c-ac30-32a0f9ec0e10" targetElement="#a4ede189-53aa-4697-8a9b-fdd65dc411af"
+                sourceElement="#9f4c192c-ac98-4ab1-a6ea-b7fe4164a284"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="adb445b2-a1f9-428b-95ad-e41fecacff13" name="Lunar Mineral in Laboratory"
+              target="#790d26be-68bb-428b-becf-467b2201d8c2" source="#64ceb2ad-00cf-4f9f-914a-bdc1ce76ad5d"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="0e4e5ff6-ed0b-49e2-93c4-a26928ea1ff3" name="Analysis Programme"
+              target="#32b9ab6b-3bfc-419f-8352-dd961daccf09" source="#84a18135-df19-4408-b152-979fbcbddb75"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="925a056b-085a-4dcc-ad44-1f2e3e2d1bf8" name="Objective reached" target="#bed79d98-5e2c-4f07-8d5d-3295593f4c2e"
+              source="#6292bb73-5043-495f-93de-53988c6d3b10"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="04cf883a-77e3-460c-91b8-7f7172d5879d" name="Analysis Programme"
+              target="#5c1d7cbc-feba-4a34-9215-553f011ce636" source="#1a53b8e5-2456-476e-8225-fdf64dddd70f"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="e4e733fa-133f-4b23-bad6-efb35a6eb8eb" name="Data Transfer" target="#daf9f01e-4bf4-4036-a173-f30e53e8171d"
+              source="#6fc2e54e-bdb3-4d98-86af-2143cf0af25e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7b60434f-a533-4b6b-ac75-c955ccc43271" name="Particles detected"
+              target="#b248740e-70e8-4dee-96b6-56e0511d7080" source="#52670f93-ec31-4217-bc05-65f641d63895"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="ae67daf2-1b3b-46bf-80e4-163784bc8ca1" name="Second Phase" target="#d6dfdcb5-080c-46fb-af4f-ce1a4fa300a8"
+              source="#51187b54-2465-4c00-b7b6-3d32157ea20c"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="b70a2d62-a85d-4b0a-98f2-1ff753802515" name="Analyse target rock specification"
+              target="#09b3e937-a7e0-4137-8c60-3d097113a2b4" source="#35390587-c25e-4678-84f0-2324838661d3"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="b586475c-4fb9-4e0d-88c0-68d638deb465" name="Further process" target="#5e076b4c-8852-4d0a-b758-b254c2627eaa"
+              source="#8198828e-02fc-4501-b813-ecd1c5f9b84a"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="bf1041e8-54e6-4518-8143-cbd27d4213d0" name="Further process" target="#ed8d6aa5-7e68-4587-abd2-51689295491b"
+              source="#f3b9847f-e6a2-4608-b5c0-db35e22f9e68"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="e762d722-0d04-4756-8c4b-3118fba692c0" name="Further process" target="#d01e35fc-b378-4e99-b16f-0a7678557d83"
+              source="#69429d2a-3386-41d1-9693-d4a08f5e58ad"/>
+        </ownedSystemFunctions>
+      </ownedFunctionPkg>
+      <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
+          id="f1156ba7-88cb-4417-8e2c-486d84fd8682" name="Capabilities">
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="4d0c31a9-5565-429f-88e0-abc8835c1682" name="Extract Basaltic Rocks">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="5db6e090-7731-4966-95ef-2b3b61118e0f" involved="#d2135c1f-117e-49a0-a359-72a3f4f04bef"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="13d6764b-49bb-46cf-84c0-1ee7a974db2e" name="Obtain Impact Melt Rocks">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="66f86a43-12bf-49f1-bbc1-b713f9c7349d" involved="#d2135c1f-117e-49a0-a359-72a3f4f04bef"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="5436aa9a-d2e3-4fba-9d09-b073b22bd17a" name="Pick-up Lunar Minerals">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="93b0a494-3247-4f5b-a049-2d23be75fb74" involved="#d2135c1f-117e-49a0-a359-72a3f4f04bef"/>
+        </ownedCapabilities>
+      </ownedAbstractCapabilityPkg>
+      <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
+          id="643b5dd2-a1ea-4ae4-9a99-2c86272a5e03" name="Interfaces"/>
+      <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
+          id="8c0ac7ae-0d89-4110-ad2e-7eba09dfb545" name="Data">
+        <ownedDataPkgs xsi:type="org.polarsys.capella.core.data.information:DataPkg"
+            id="621cae84-3b00-4060-9289-6750d8cbace5" name="Predefined Types">
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:BooleanType"
+              id="54d548a2-b331-455b-b612-8f25b4c767be" name="Boolean" visibility="PUBLIC">
+            <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralBooleanValue"
+                id="ad1a33c3-7d10-4a22-beed-bc9d2c23f25e" name="True" abstractType="#54d548a2-b331-455b-b612-8f25b4c767be"
+                value="true"/>
+            <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralBooleanValue"
+                id="7400b651-049d-4183-9716-e17872d3a17d" name="False" abstractType="#54d548a2-b331-455b-b612-8f25b4c767be"/>
+          </ownedDataTypes>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="5f9bc5aa-269d-4bee-bd84-33b27bf23353" name="Byte" visibility="PUBLIC">
+            <ownedMinValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="38328993-480c-4b0d-a6d2-2b33a09a0e5e" name="" abstractType="#5f9bc5aa-269d-4bee-bd84-33b27bf23353"
+                value="0"/>
+            <ownedMaxValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="9dfe231c-6827-44ab-bdfb-ccb94f7c3afc" name="" abstractType="#5f9bc5aa-269d-4bee-bd84-33b27bf23353"
+                value="255"/>
+          </ownedDataTypes>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:StringType"
+              id="f0679946-46d2-4eb3-8bcd-d60af93bff9b" name="Char" visibility="PUBLIC">
+            <ownedMinLength xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="f424064f-81c9-46fd-a46e-802d83935a63" name="" abstractType="#a44216e2-2a87-4570-adb8-a99ced60164d"
+                value="1"/>
+            <ownedMaxLength xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="b8e454b5-b6e9-4e29-aea0-e4218edcfdc7" name="" abstractType="#a44216e2-2a87-4570-adb8-a99ced60164d"
+                value="1"/>
+          </ownedDataTypes>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="60af296b-7804-4474-8429-c85520d50626" name="Double" discrete="false"
+              visibility="PUBLIC" kind="FLOAT"/>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="d7039723-b2ee-4dd0-8b95-d227e03e22af" name="Float" discrete="false"
+              visibility="PUBLIC" kind="FLOAT"/>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="4ef2a62f-1ebf-49f2-84b3-42ef754c45fa" name="Hexadecimal" visibility="PUBLIC">
+            <ownedMinValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="828cb0c7-d592-4071-aa97-f6d41aaec4e8" name="" abstractType="#4ef2a62f-1ebf-49f2-84b3-42ef754c45fa"
+                value="0"/>
+            <ownedMaxValue xsi:type="org.polarsys.capella.core.data.information.datavalue:BinaryExpression"
+                id="b2ee9b8c-9c67-43ab-a0fe-491695331986" abstractType="#4ef2a62f-1ebf-49f2-84b3-42ef754c45fa"
+                operator="SUB">
+              <ownedLeftOperand xsi:type="org.polarsys.capella.core.data.information.datavalue:BinaryExpression"
+                  id="2a031d1f-3a2c-4ad1-b537-b3f1c045e6f9" operator="POW">
+                <ownedLeftOperand xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                    id="d7b56f3a-6729-4c2a-a30c-3698817b9799" value="2"/>
+                <ownedRightOperand xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                    id="c37ad93d-edf2-4351-b0a4-98c6eaa16f80" value="64"/>
+              </ownedLeftOperand>
+              <ownedRightOperand xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                  id="7c66b843-5163-4c7a-afe7-2302c1382cd3" value="1"/>
+            </ownedMaxValue>
+          </ownedDataTypes>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="f566ea26-9a97-4139-986a-50184180707f" name="Integer" visibility="PUBLIC"/>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="2925f1d1-7a1f-474d-82ff-674c65e38084" name="Long" visibility="PUBLIC"/>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="61c452d1-78ca-48bb-ad58-6fde19c6ebc8" name="LongLong" visibility="PUBLIC"/>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="17d59895-e12b-4f36-9ebd-cd04b5d7c87f" name="Short" visibility="PUBLIC"/>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:StringType"
+              id="0b1268ac-aef7-4fb8-a49f-290d6312653c" name="String" visibility="PUBLIC"/>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="3220845a-eab1-484a-805b-01dffbf8c6ba" name="UnsignedInteger" maxInclusive="false"
+              visibility="PUBLIC">
+            <ownedMinValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="d046771e-f97c-45d8-9b28-3a4be7948d4b" name="" abstractType="#3220845a-eab1-484a-805b-01dffbf8c6ba"
+                value="0"/>
+          </ownedDataTypes>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="a44216e2-2a87-4570-adb8-a99ced60164d" name="UnsignedShort" maxInclusive="false"
+              visibility="PUBLIC">
+            <ownedMinValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="4712e0cf-c79f-4daf-9fd7-61e15bbc9fdd" name="" abstractType="#a44216e2-2a87-4570-adb8-a99ced60164d"
+                value="0"/>
+          </ownedDataTypes>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="a24c8b5e-f4b0-4702-a8d5-22712cced4c1" name="UnsignedLong" maxInclusive="false"
+              visibility="PUBLIC">
+            <ownedMinValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="e94ad90a-a2b9-4634-a860-e0d36952a6ff" name="" abstractType="#a24c8b5e-f4b0-4702-a8d5-22712cced4c1"
+                value="0"/>
+          </ownedDataTypes>
+          <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:NumericType"
+              id="4ff0d2c3-b2bb-41f1-a76f-6d56296c2746" name="UnsignedLongLong" maxInclusive="false"
+              visibility="PUBLIC">
+            <ownedMinValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="32e2d7d7-e573-4e49-acc5-460a4476a460" name="" abstractType="#4ff0d2c3-b2bb-41f1-a76f-6d56296c2746"
+                value="0"/>
+          </ownedDataTypes>
+        </ownedDataPkgs>
+      </ownedDataPkg>
+      <ownedSystemComponentPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg"
+          id="6126cc70-8a07-4cd2-92f1-6da97ab1b608" name="Structure">
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="6c6cf7b2-eabd-488b-ae9c-26e2a1e01d59" targetElement="#eb03aa4b-1744-4f51-9d79-8c28e112cce0"
+            sourceElement="#95263b6c-6c10-4699-b823-a5b5590816dc"/>
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="873b9ea8-490a-40a3-96ad-4aca69d8ec1a" targetElement="#fcd9f80c-8aa9-4c68-924b-d9dace6c573a"
+            sourceElement="#e9807fb5-d96c-4d3a-91d2-ebdded07666e"/>
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="c1291895-7b3a-42a3-b2ae-64ebdaab33ab" targetElement="#4aa36ad6-d3de-49e4-b02a-694e1cddff6e"
+            sourceElement="#04e15388-6ec1-47a2-acfb-e4858247d530"/>
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="867b6f44-fba3-4930-954e-d522c2b7c891" targetElement="#0259cc0a-7421-4c41-bc64-9ee286aebf7a"
+            sourceElement="#4ba87c2c-6fb7-4592-8d68-cd81cb151eeb"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="a9ce0dee-d729-45ca-98b0-4256e71dc3de"
+            name="System" abstractType="#d2135c1f-117e-49a0-a359-72a3f4f04bef"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="4ba87c2c-6fb7-4592-8d68-cd81cb151eeb"
+            name="Basalt" abstractType="#0c293ef2-042d-43b5-931d-27c9eb5dbd21"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="95263b6c-6c10-4699-b823-a5b5590816dc"
+            name="Lunar Gateway" abstractType="#807120b0-4c1e-4619-9a9d-a1faa3536d0a"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e9807fb5-d96c-4d3a-91d2-ebdded07666e"
+            name="Lunar Habitat Module" abstractType="#8cdf01ee-f9e1-4b8a-b089-b1734ad961e3"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="04e15388-6ec1-47a2-acfb-e4858247d530"
+            name="Impact Melt Rocks" abstractType="#208f3489-ebab-4da6-bb36-552127647c10"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="00c6bf64-aaa2-4975-85cd-083ca5f8d3a8"
+            name="Data" abstractType="#baa75324-06a4-4880-b975-771b5c29d5d3"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="d2135c1f-117e-49a0-a359-72a3f4f04bef" name="System">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="f730d63f-d377-4a09-b4f5-673b0936b261" targetElement="#02ec52d9-3efc-4441-a69f-9c744b1ce372"
+              sourceElement="#d2135c1f-117e-49a0-a359-72a3f4f04bef"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="9e1f1397-d225-45a1-bf67-346e7ce38e63" targetElement="#d3cf18c1-ad9d-45b0-9611-31f91db089ee"
+              sourceElement="#d2135c1f-117e-49a0-a359-72a3f4f04bef"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="9cfb1cb0-d120-4235-81bf-26bc04ca0959" targetElement="#b2192487-0d40-48b7-8961-7644458fc85d"
+              sourceElement="#d2135c1f-117e-49a0-a359-72a3f4f04bef"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="52496ba3-d7ab-4df8-850f-6d427b655629" targetElement="#a5e10d2d-becb-4e41-b6ea-89e44dccfaab"
+              sourceElement="#d2135c1f-117e-49a0-a359-72a3f4f04bef"/>
+          <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
+              id="584f09e6-7523-444f-924a-7937012ce22a" name="System State Machine">
+            <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
+                id="d86edadd-fda6-4050-949e-c9bf8810f3e1" name="Default Region"/>
+          </ownedStateMachines>
+        </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="0c293ef2-042d-43b5-931d-27c9eb5dbd21" name="Basalt" actor="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="2b4f8607-ae8e-4609-b199-1fc582efbcdc" targetElement="#69a6fe83-53be-4440-8324-185cc42973eb"
+              sourceElement="#0c293ef2-042d-43b5-931d-27c9eb5dbd21"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="b57821d8-39e8-4ee3-902c-773f663368fd" targetElement="#0f05c96c-9898-44a1-9625-e9a99d535ef3"
+              sourceElement="#0c293ef2-042d-43b5-931d-27c9eb5dbd21"/>
+        </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="807120b0-4c1e-4619-9a9d-a1faa3536d0a" name="Lunar Gateway" actor="true">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="f9922c91-756d-4154-8136-e8d2df35e167" targetElement="#e1d45904-6c09-4581-8ce9-e2b3de5fe62c"
+              sourceElement="#fccb96f6-eeb0-43bb-910c-8969aec9c4d6"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="beb547a7-524a-42c5-b932-88a22b2988f9" targetElement="#9c6fd14f-63ee-47f9-a48a-7fed250803f1"
+              sourceElement="#4c6cc203-bca9-42bb-a49a-7d93825b60eb"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="fccb96f6-eeb0-43bb-910c-8969aec9c4d6" targetElement="#9faf9ac6-cd2a-408b-ba6c-038e9deb9ffe"
+              sourceElement="#807120b0-4c1e-4619-9a9d-a1faa3536d0a"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="4c6cc203-bca9-42bb-a49a-7d93825b60eb" targetElement="#d424066f-ac11-42fd-976d-722954711e3b"
+              sourceElement="#807120b0-4c1e-4619-9a9d-a1faa3536d0a"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="f886f88f-1371-4e92-9e9e-5221e18ba85d" targetElement="#bbb9426b-469e-4f5b-b674-61a3409a90ee"
+              sourceElement="#807120b0-4c1e-4619-9a9d-a1faa3536d0a"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="d6ce055d-e7c3-402a-9e0d-c97798163935" targetElement="#0a304545-08dd-4010-890e-8f79e9f136cc"
+              sourceElement="#807120b0-4c1e-4619-9a9d-a1faa3536d0a"/>
+        </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="8cdf01ee-f9e1-4b8a-b089-b1734ad961e3" name="Lunar Habitat Module"
+            actor="true">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="840f39ad-fdd2-48ff-8778-785eedcb9ab3" targetElement="#a4e27553-3959-4aba-b171-5c2fd4720e7c"
+              sourceElement="#1230e43b-6a4b-4bcb-8dfb-ac6b461658df"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1230e43b-6a4b-4bcb-8dfb-ac6b461658df" targetElement="#14e91e96-b520-4ad6-aeea-8d8261e0648e"
+              sourceElement="#8cdf01ee-f9e1-4b8a-b089-b1734ad961e3"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="6d371456-5732-4371-80f4-1716d578a04f" targetElement="#e7e0587d-d672-4b5b-9982-c79259f14b08"
+              sourceElement="#8cdf01ee-f9e1-4b8a-b089-b1734ad961e3"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="d47e33a7-1b77-45ae-80a7-cd1bee91419d" targetElement="#7e9936cd-bfa1-438c-bcd0-c44c45d3ffac"
+              sourceElement="#8cdf01ee-f9e1-4b8a-b089-b1734ad961e3"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="ee47e56a-5e90-4c05-a589-ac4a6ca87918" targetElement="#65296946-e9dd-42e8-8cb9-40e2f8b7a0e7"
+              sourceElement="#8cdf01ee-f9e1-4b8a-b089-b1734ad961e3"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="2a00fe25-b70a-452c-bc8a-cd5046183bff" targetElement="#a3e5be5b-3730-47f5-ac48-70fd9e702884"
+              sourceElement="#8cdf01ee-f9e1-4b8a-b089-b1734ad961e3"/>
+        </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="208f3489-ebab-4da6-bb36-552127647c10" name="Impact Melt Rocks" actor="true">
+          <ownedGeneralizations xsi:type="org.polarsys.capella.core.data.capellacore:Generalization"
+              id="26aa071d-92ba-4999-af45-a0c44e2a906d" super="#0c293ef2-042d-43b5-931d-27c9eb5dbd21"
+              sub="#208f3489-ebab-4da6-bb36-552127647c10"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="e3a23b53-e1f3-4aec-8c95-19c95fcbe71e" targetElement="#bf216767-0e1a-4518-b4cb-1260eb35c3da"
+              sourceElement="#208f3489-ebab-4da6-bb36-552127647c10"/>
+        </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="baa75324-06a4-4880-b975-771b5c29d5d3" name="Data" actor="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="a13b5eb2-d97d-495c-a5be-6cef30c7666c" targetElement="#9d1ba0e8-701b-4257-ad3a-ecabf80d5ada"
+              sourceElement="#baa75324-06a4-4880-b975-771b5c29d5d3"/>
+          <ownedGeneralizations xsi:type="org.polarsys.capella.core.data.capellacore:Generalization"
+              id="65538add-de60-4633-8bab-104c690dd3c9" super="#0c293ef2-042d-43b5-931d-27c9eb5dbd21"
+              sub="#baa75324-06a4-4880-b975-771b5c29d5d3"/>
+        </ownedSystemComponents>
+      </ownedSystemComponentPkg>
+      <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="68c33a6b-516d-4d18-8845-ae961d0098e8"
+          name="Missions">
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="61fb0252-ba61-4a2c-8eca-924e48afaa0f" targetElement="#185e2157-48c4-4000-b3f8-47667e0a1ce9"
+            sourceElement="#2b953006-b6c0-456c-8169-1f239454c9ca"/>
+        <ownedMissions xsi:type="org.polarsys.capella.core.data.ctx:Mission" id="2b953006-b6c0-456c-8169-1f239454c9ca"
+            name="LG and LHM: Mineral Sample" summary="Obtain recent and accurate data from lunar mineral sampling which include impact melt rocks and basaltic rocks.">
+          <ownedMissionInvolvements xsi:type="org.polarsys.capella.core.data.ctx:MissionInvolvement"
+              id="9dd86d0b-3617-4ee7-b618-c34609570821" involved="#807120b0-4c1e-4619-9a9d-a1faa3536d0a"/>
+          <ownedMissionInvolvements xsi:type="org.polarsys.capella.core.data.ctx:MissionInvolvement"
+              id="306c9ba4-a9d4-4bc3-945b-28ffcf51d777" involved="#8cdf01ee-f9e1-4b8a-b089-b1734ad961e3"/>
+          <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
+              id="c2c3a150-a09a-4f59-aadc-ddf968af549d" capability="#13d6764b-49bb-46cf-84c0-1ee7a974db2e"/>
+          <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
+              id="d76417d3-5ff4-4128-9722-d2fab754bcac" capability="#5436aa9a-d2e3-4fba-9d09-b073b22bd17a"/>
+          <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
+              id="d19700fe-2ba1-4324-9e47-1914ea294ff4" capability="#4d0c31a9-5565-429f-88e0-abc8835c1682"/>
+        </ownedMissions>
+      </ownedMissionPkg>
+      <ownedOperationalAnalysisRealizations xsi:type="org.polarsys.capella.core.data.ctx:OperationalAnalysisRealization"
+          id="2709e56b-6892-4ba6-bde0-3d84da76b496" targetElement="#56023d53-e28a-406f-b3a6-d76a8935bdf8"
+          sourceElement="#5adc307a-b7bf-4194-9614-b87e4c20ae07"/>
+    </ownedArchitectures>
+    <ownedArchitectures xsi:type="org.polarsys.capella.core.data.la:LogicalArchitecture"
+        id="a3d912ef-96bf-41eb-87dd-3bf3b2c725a4" name="Logical Architecture">
+      <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.la:LogicalFunctionPkg"
+          id="6b8a37ee-5b75-445c-bd4d-a090dec7d5d9" name="Logical Functions">
+        <ownedLogicalFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+            id="9571dd7a-f30f-4661-9c83-259791d19982" name="Root Logical Function">
+          <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+              id="e619f894-8ece-4ae1-8a3e-02adde23183a" targetElement="#6a26fa38-3f9a-4638-af29-5af69a96a154"
+              sourceElement="#9571dd7a-f30f-4661-9c83-259791d19982"/>
+        </ownedLogicalFunctions>
+      </ownedFunctionPkg>
+      <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
+          id="0d4e4fb4-faa3-4e8c-a43b-8c74d240250f" name="Capabilities"/>
+      <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
+          id="98747037-d134-4b3d-9604-fb4c265064c1" name="Interfaces"/>
+      <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
+          id="dfa907ae-a983-4767-a41b-2155488925bb" name="Data"/>
+      <ownedLogicalComponentPkg xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+          id="af4f84de-d087-46df-a874-0a2eac7f1dd6" name="Structure">
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="66a6577c-8481-4a89-a29b-0cd9b58c00ee"
+            name="Logical System" abstractType="#a5da7b72-66a9-4f43-874c-9161ff8127a2"/>
+        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+            id="a5da7b72-66a9-4f43-874c-9161ff8127a2" name="Logical System">
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="2668d9df-9635-41af-bd13-1f565cae8724" targetElement="#d2135c1f-117e-49a0-a359-72a3f4f04bef"
+              sourceElement="#a5da7b72-66a9-4f43-874c-9161ff8127a2"/>
+        </ownedLogicalComponents>
+      </ownedLogicalComponentPkg>
+      <ownedSystemAnalysisRealizations xsi:type="org.polarsys.capella.core.data.la:SystemAnalysisRealization"
+          id="14c05a6b-a286-4abe-bd05-e3a7b2ba6980" targetElement="#5adc307a-b7bf-4194-9614-b87e4c20ae07"
+          sourceElement="#a3d912ef-96bf-41eb-87dd-3bf3b2c725a4"/>
+    </ownedArchitectures>
+    <ownedArchitectures xsi:type="org.polarsys.capella.core.data.pa:PhysicalArchitecture"
+        id="adb05039-8bd7-4e5e-8840-d45bf1ff808b" name="Physical Architecture">
+      <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunctionPkg"
+          id="b141844e-40fd-4dfe-9075-efcb20f47b76" name="Physical Functions">
+        <ownedPhysicalFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+            id="6f74f541-5ecb-436d-8a53-9609074a06e0" name="Root Physical Function">
+          <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+              id="9f0ec956-dcea-44a6-a591-8ace44db68ca" targetElement="#9571dd7a-f30f-4661-9c83-259791d19982"
+              sourceElement="#6f74f541-5ecb-436d-8a53-9609074a06e0"/>
+        </ownedPhysicalFunctions>
+      </ownedFunctionPkg>
+      <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
+          id="ba5b57db-9032-47dc-b404-8d93bb2cfe88" name="Capabilities"/>
+      <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
+          id="637291e3-d632-47df-b78e-588144fe7d7d" name="Interfaces"/>
+      <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
+          id="e6e9f05a-c891-4b2c-a883-b3171a5ff5ee" name="Data"/>
+      <ownedPhysicalComponentPkg xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+          id="22aa8edd-8540-4b3e-a87d-dcb1cfea0e1d" name="Structure">
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="500fd500-c557-4fc3-af96-b28d15cb4ab2"
+            name="Physical System" abstractType="#7ea197f2-85ce-4d2b-82d6-ae58f70a4202"/>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="7ea197f2-85ce-4d2b-82d6-ae58f70a4202" name="Physical System">
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="9cb3314a-8573-4984-a675-1d7c278ff783" targetElement="#a5da7b72-66a9-4f43-874c-9161ff8127a2"
+              sourceElement="#7ea197f2-85ce-4d2b-82d6-ae58f70a4202"/>
+        </ownedPhysicalComponents>
+      </ownedPhysicalComponentPkg>
+      <ownedLogicalArchitectureRealizations xsi:type="org.polarsys.capella.core.data.pa:LogicalArchitectureRealization"
+          id="e242c9a0-deb4-45c1-89da-4fab9eafbf24" targetElement="#a3d912ef-96bf-41eb-87dd-3bf3b2c725a4"
+          sourceElement="#adb05039-8bd7-4e5e-8840-d45bf1ff808b"/>
+    </ownedArchitectures>
+  </ownedModelRoots>
+</org.polarsys.capella.core.data.capellamodeller:Project>
